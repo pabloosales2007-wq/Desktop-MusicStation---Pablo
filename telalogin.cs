@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Telas_Desktop_MusicStation___Pablo
 {
-    public partial class Form1 : Form
+    public partial class telalogin : Form
     {
-        public Form1()
+        public telalogin()
         {
             InitializeComponent();
         }
+
+
     }
 }

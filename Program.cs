@@ -16,7 +16,7 @@ namespace Telas_Desktop_MusicStation___Pablo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new telalogin());
         }
     }
 }
