@@ -61,7 +61,7 @@
             this.txtLoginSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
             this.txtLoginSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLoginSenha.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtLoginSenha.Location = new System.Drawing.Point(250, 296);
+            this.txtLoginSenha.Location = new System.Drawing.Point(250, 292);
             this.txtLoginSenha.Name = "txtLoginSenha";
             this.txtLoginSenha.Size = new System.Drawing.Size(339, 29);
             this.txtLoginSenha.TabIndex = 2;
