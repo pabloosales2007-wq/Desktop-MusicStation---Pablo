@@ -10,18 +10,13 @@ using System.Windows.Forms;
 
 namespace Telas_Desktop_MusicStation___Pablo
 {
-    public partial class telalogin : Form
+    public partial class FormMenuPrincipal : Form
     {
-        public telalogin()
+        public FormMenuPrincipal()
         {
             InitializeComponent();
         }
 
-        private void btnEnviarLogin_Click(object sender, EventArgs e)
-        {
-            FormMenuPrincipal principal = new FormMenuPrincipal();
-            principal.Show();
-            this.Hide();
-        }
+
     }
 }
