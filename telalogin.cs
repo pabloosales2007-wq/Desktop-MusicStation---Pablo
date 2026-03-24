@@ -17,7 +17,15 @@ namespace Telas_Desktop_MusicStation___Pablo
             InitializeComponent();
         }
 
+
         private void btnEnviarLogin_Click(object sender, EventArgs e)
+        {
+            FormMenuPrincipal principal = new FormMenuPrincipal();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void btnFazerLogin_Click(object sender, EventArgs e)
         {
             FormMenuPrincipal principal = new FormMenuPrincipal();
             principal.Show();

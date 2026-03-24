@@ -28,46 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtLoginUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnFazerLogin = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnEnviarLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.txtSenhaUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtLoginUsuario
+            // textBox1
             // 
-            this.txtLoginUsuario.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.txtLoginUsuario.BorderRadius = 5;
-            this.txtLoginUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtLoginUsuario.DefaultText = "";
-            this.txtLoginUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtLoginUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtLoginUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtLoginUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtLoginUsuario.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
-            this.txtLoginUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtLoginUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtLoginUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtLoginUsuario.Location = new System.Drawing.Point(277, 229);
-            this.txtLoginUsuario.Name = "txtLoginUsuario";
-            this.txtLoginUsuario.PlaceholderText = "";
-            this.txtLoginUsuario.SelectedText = "";
-            this.txtLoginUsuario.Size = new System.Drawing.Size(339, 36);
-            this.txtLoginUsuario.TabIndex = 1;
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(277, 244);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(339, 28);
+            this.textBox1.TabIndex = 5;
             // 
-            // guna2PictureBox1
+            // textBox3
             // 
-            this.guna2PictureBox1.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.REtangulo;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(167, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(530, 452);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 4;
-            this.guna2PictureBox1.TabStop = false;
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.textBox3.Location = new System.Drawing.Point(277, 317);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(339, 28);
+            this.textBox3.TabIndex = 7;
+            // 
+            // btnFazerLogin
+            // 
+            this.btnFazerLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
+            this.btnFazerLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFazerLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFazerLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.btnFazerLogin.Location = new System.Drawing.Point(377, 363);
+            this.btnFazerLogin.Name = "btnFazerLogin";
+            this.btnFazerLogin.Size = new System.Drawing.Size(138, 53);
+            this.btnFazerLogin.TabIndex = 11;
+            this.btnFazerLogin.Text = "AVANÇAR";
+            this.btnFazerLogin.UseVisualStyleBackColor = false;
+            this.btnFazerLogin.Click += new System.EventHandler(this.btnFazerLogin_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.pictureBox4.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.Usuario;
+            this.pictureBox4.Location = new System.Drawing.Point(247, 244);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.pictureBox3.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.senha;
+            this.pictureBox3.Location = new System.Drawing.Point(247, 321);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -80,46 +109,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btnEnviarLogin
+            // pictureBox2
             // 
-            this.btnEnviarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.btnEnviarLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnEnviarLogin.BorderRadius = 5;
-            this.btnEnviarLogin.BorderThickness = 1;
-            this.btnEnviarLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnEnviarLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnEnviarLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnEnviarLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEnviarLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
-            this.btnEnviarLogin.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviarLogin.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarLogin.Location = new System.Drawing.Point(360, 388);
-            this.btnEnviarLogin.Name = "btnEnviarLogin";
-            this.btnEnviarLogin.Size = new System.Drawing.Size(180, 45);
-            this.btnEnviarLogin.TabIndex = 5;
-            this.btnEnviarLogin.Text = "AVANÇAR";
-            this.btnEnviarLogin.Click += new System.EventHandler(this.btnEnviarLogin_Click);
-            // 
-            // txtSenhaUsuario
-            // 
-            this.txtSenhaUsuario.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.txtSenhaUsuario.BorderRadius = 5;
-            this.txtSenhaUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSenhaUsuario.DefaultText = "";
-            this.txtSenhaUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSenhaUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSenhaUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSenhaUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSenhaUsuario.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
-            this.txtSenhaUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSenhaUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtSenhaUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSenhaUsuario.Location = new System.Drawing.Point(277, 303);
-            this.txtSenhaUsuario.Name = "txtSenhaUsuario";
-            this.txtSenhaUsuario.PlaceholderText = "";
-            this.txtSenhaUsuario.SelectedText = "";
-            this.txtSenhaUsuario.Size = new System.Drawing.Size(339, 36);
-            this.txtSenhaUsuario.TabIndex = 6;
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.pictureBox2.Location = new System.Drawing.Point(189, 40);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(507, 400);
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
             // 
             // telalogin
             // 
@@ -127,27 +124,34 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(868, 492);
-            this.Controls.Add(this.txtSenhaUsuario);
-            this.Controls.Add(this.btnEnviarLogin);
-            this.Controls.Add(this.txtLoginUsuario);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.btnFazerLogin);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.guna2PictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "telalogin";
             this.Text = "telalogin";
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox txtLoginUsuario;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Button btnEnviarLogin;
-        private Guna.UI2.WinForms.Guna2TextBox txtSenhaUsuario;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnFazerLogin;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 

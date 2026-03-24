@@ -10,18 +10,13 @@ using System.Windows.Forms;
 
 namespace Telas_Desktop_MusicStation___Pablo
 {
-    public partial class FormMenuPrincipal : Form
+    public partial class PessoasProfissionalCargos : Form
     {
-        public FormMenuPrincipal()
+        public PessoasProfissionalCargos()
         {
             InitializeComponent();
         }
 
-        private void btnPessoas_Click(object sender, EventArgs e)
-        {
-            FormPessoas principal = new FormPessoas ();
-            principal.Show();
-            this.Hide();
-        }
+
     }
 }

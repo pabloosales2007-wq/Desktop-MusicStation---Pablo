@@ -58,6 +58,42 @@
     <Compile Include="FormMenuPrincipal.Designer.cs">
       <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPessoas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPessoas.Designer.cs">
+      <DependentUpon>FormPessoas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PessoasCargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PessoasCargos.Designer.cs">
+      <DependentUpon>PessoasCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PessoasClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PessoasClientes.Designer.cs">
+      <DependentUpon>PessoasClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PessoasProfissionais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PessoasProfissionais.Designer.cs">
+      <DependentUpon>PessoasProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PessoasProfissionalCargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PessoasProfissionalCargos.Designer.cs">
+      <DependentUpon>PessoasProfissionalCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PessoasUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PessoasUsuarios.Designer.cs">
+      <DependentUpon>PessoasUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="telalogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +104,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMenuPrincipal.resx">
       <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPessoas.resx">
+      <DependentUpon>FormPessoas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PessoasCargos.resx">
+      <DependentUpon>PessoasCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PessoasClientes.resx">
+      <DependentUpon>PessoasClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PessoasProfissionais.resx">
+      <DependentUpon>PessoasProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PessoasProfissionalCargos.resx">
+      <DependentUpon>PessoasProfissionalCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PessoasUsuarios.resx">
+      <DependentUpon>PessoasUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="telalogin.resx">
       <DependentUpon>telalogin.cs</DependentUpon>
@@ -113,6 +167,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TABELA PESSOAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\senha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

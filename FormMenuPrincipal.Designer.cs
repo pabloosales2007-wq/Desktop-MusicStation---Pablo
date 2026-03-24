@@ -54,6 +54,7 @@
             this.btnPessoas.Text = "PESSOAS";
             this.btnPessoas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPessoas.UseVisualStyleBackColor = false;
+            this.btnPessoas.Click += new System.EventHandler(this.btnPessoas_Click);
             // 
             // btnCatalogo
             // 
