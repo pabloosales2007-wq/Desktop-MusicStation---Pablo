@@ -76,5 +76,15 @@ namespace Telas_Desktop_MusicStation___Pablo
         {
             AbrirFormulario(new PessoasClientes());
         }
+
+        private void btnAdministradores_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new PessoasAdministradores());
+        }
+
+        private void btnEmpresa_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new PessoasEmpresa());
+        }
     }
 }

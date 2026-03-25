@@ -36,12 +36,12 @@
             this.telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numero = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnCadastrarProfissionais = new System.Windows.Forms.Button();
-            this.btnAtualizarProfCargo = new System.Windows.Forms.Button();
-            this.btnPesquisarProfCargo = new System.Windows.Forms.Button();
-            this.btnDeletarProfCargo = new System.Windows.Forms.Button();
-            this.txtidProfissionais = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnCadastrarClientes = new System.Windows.Forms.Button();
+            this.btnAtualizarClientes = new System.Windows.Forms.Button();
+            this.btnPesquisarClientes = new System.Windows.Forms.Button();
+            this.btnDeletarClientes = new System.Windows.Forms.Button();
+            this.txtId_cliente = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -117,79 +117,79 @@
             this.numero.HeaderText = "numero";
             this.numero.Name = "numero";
             // 
-            // btnCadastrarProfissionais
+            // btnCadastrarClientes
             // 
-            this.btnCadastrarProfissionais.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(167)))), ((int)(((byte)(46)))));
-            this.btnCadastrarProfissionais.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCadastrarProfissionais.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarProfissionais.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCadastrarProfissionais.Location = new System.Drawing.Point(438, 94);
-            this.btnCadastrarProfissionais.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnCadastrarProfissionais.Name = "btnCadastrarProfissionais";
-            this.btnCadastrarProfissionais.Size = new System.Drawing.Size(88, 33);
-            this.btnCadastrarProfissionais.TabIndex = 37;
-            this.btnCadastrarProfissionais.Text = "Cadastrar";
-            this.btnCadastrarProfissionais.UseVisualStyleBackColor = false;
+            this.btnCadastrarClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(167)))), ((int)(((byte)(46)))));
+            this.btnCadastrarClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCadastrarClientes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarClientes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCadastrarClientes.Location = new System.Drawing.Point(438, 94);
+            this.btnCadastrarClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnCadastrarClientes.Name = "btnCadastrarClientes";
+            this.btnCadastrarClientes.Size = new System.Drawing.Size(88, 33);
+            this.btnCadastrarClientes.TabIndex = 37;
+            this.btnCadastrarClientes.Text = "Cadastrar";
+            this.btnCadastrarClientes.UseVisualStyleBackColor = false;
             // 
-            // btnAtualizarProfCargo
+            // btnAtualizarClientes
             // 
-            this.btnAtualizarProfCargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(158)))), ((int)(((byte)(213)))));
-            this.btnAtualizarProfCargo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAtualizarProfCargo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtualizarProfCargo.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAtualizarProfCargo.Location = new System.Drawing.Point(534, 133);
-            this.btnAtualizarProfCargo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnAtualizarProfCargo.Name = "btnAtualizarProfCargo";
-            this.btnAtualizarProfCargo.Size = new System.Drawing.Size(88, 31);
-            this.btnAtualizarProfCargo.TabIndex = 47;
-            this.btnAtualizarProfCargo.Text = "Atualizar";
-            this.btnAtualizarProfCargo.UseVisualStyleBackColor = false;
+            this.btnAtualizarClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(158)))), ((int)(((byte)(213)))));
+            this.btnAtualizarClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAtualizarClientes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizarClientes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnAtualizarClientes.Location = new System.Drawing.Point(534, 133);
+            this.btnAtualizarClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnAtualizarClientes.Name = "btnAtualizarClientes";
+            this.btnAtualizarClientes.Size = new System.Drawing.Size(88, 31);
+            this.btnAtualizarClientes.TabIndex = 47;
+            this.btnAtualizarClientes.Text = "Atualizar";
+            this.btnAtualizarClientes.UseVisualStyleBackColor = false;
             // 
-            // btnPesquisarProfCargo
+            // btnPesquisarClientes
             // 
-            this.btnPesquisarProfCargo.BackColor = System.Drawing.Color.White;
-            this.btnPesquisarProfCargo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPesquisarProfCargo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisarProfCargo.ForeColor = System.Drawing.Color.Black;
-            this.btnPesquisarProfCargo.Location = new System.Drawing.Point(534, 94);
-            this.btnPesquisarProfCargo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnPesquisarProfCargo.Name = "btnPesquisarProfCargo";
-            this.btnPesquisarProfCargo.Size = new System.Drawing.Size(88, 33);
-            this.btnPesquisarProfCargo.TabIndex = 46;
-            this.btnPesquisarProfCargo.Text = "Pesquisar";
-            this.btnPesquisarProfCargo.UseVisualStyleBackColor = false;
+            this.btnPesquisarClientes.BackColor = System.Drawing.Color.White;
+            this.btnPesquisarClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPesquisarClientes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisarClientes.ForeColor = System.Drawing.Color.Black;
+            this.btnPesquisarClientes.Location = new System.Drawing.Point(534, 94);
+            this.btnPesquisarClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnPesquisarClientes.Name = "btnPesquisarClientes";
+            this.btnPesquisarClientes.Size = new System.Drawing.Size(88, 33);
+            this.btnPesquisarClientes.TabIndex = 46;
+            this.btnPesquisarClientes.Text = "Pesquisar";
+            this.btnPesquisarClientes.UseVisualStyleBackColor = false;
             // 
-            // btnDeletarProfCargo
+            // btnDeletarClientes
             // 
-            this.btnDeletarProfCargo.BackColor = System.Drawing.Color.Red;
-            this.btnDeletarProfCargo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnDeletarProfCargo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeletarProfCargo.ForeColor = System.Drawing.Color.Transparent;
-            this.btnDeletarProfCargo.Location = new System.Drawing.Point(438, 133);
-            this.btnDeletarProfCargo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnDeletarProfCargo.Name = "btnDeletarProfCargo";
-            this.btnDeletarProfCargo.Size = new System.Drawing.Size(88, 31);
-            this.btnDeletarProfCargo.TabIndex = 45;
-            this.btnDeletarProfCargo.Text = "Deletar";
-            this.btnDeletarProfCargo.UseVisualStyleBackColor = false;
+            this.btnDeletarClientes.BackColor = System.Drawing.Color.Red;
+            this.btnDeletarClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDeletarClientes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletarClientes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnDeletarClientes.Location = new System.Drawing.Point(438, 133);
+            this.btnDeletarClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnDeletarClientes.Name = "btnDeletarClientes";
+            this.btnDeletarClientes.Size = new System.Drawing.Size(88, 31);
+            this.btnDeletarClientes.TabIndex = 45;
+            this.btnDeletarClientes.Text = "Deletar";
+            this.btnDeletarClientes.UseVisualStyleBackColor = false;
             // 
-            // txtidProfissionais
+            // txtId_cliente
             // 
-            this.txtidProfissionais.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtidProfissionais.ForeColor = System.Drawing.Color.Black;
-            this.txtidProfissionais.Location = new System.Drawing.Point(62, 98);
-            this.txtidProfissionais.Name = "txtidProfissionais";
-            this.txtidProfissionais.Size = new System.Drawing.Size(64, 20);
-            this.txtidProfissionais.TabIndex = 48;
+            this.txtId_cliente.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId_cliente.ForeColor = System.Drawing.Color.Black;
+            this.txtId_cliente.Location = new System.Drawing.Point(62, 98);
+            this.txtId_cliente.Name = "txtId_cliente";
+            this.txtId_cliente.Size = new System.Drawing.Size(64, 20);
+            this.txtId_cliente.TabIndex = 48;
             // 
-            // textBox1
+            // txt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(151, 98);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(64, 20);
-            this.textBox1.TabIndex = 49;
+            this.txt.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt.ForeColor = System.Drawing.Color.Black;
+            this.txt.Location = new System.Drawing.Point(151, 98);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(64, 20);
+            this.txt.TabIndex = 49;
             // 
             // textBox2
             // 
@@ -250,9 +250,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(231, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 16);
+            this.label2.Size = new System.Drawing.Size(63, 16);
             this.label2.TabIndex = 55;
-            this.label2.Text = "Id_cliente:";
+            this.label2.Text = "telefone:";
             // 
             // label3
             // 
@@ -262,9 +262,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(60, 121);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 16);
+            this.label3.Size = new System.Drawing.Size(36, 16);
             this.label3.TabIndex = 56;
-            this.label3.Text = "Id_cliente:";
+            this.label3.Text = "Rua:";
             // 
             // label4
             // 
@@ -274,9 +274,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(59, 162);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 16);
+            this.label4.Size = new System.Drawing.Size(56, 16);
             this.label4.TabIndex = 57;
-            this.label4.Text = "Id_cliente:";
+            this.label4.Text = "numero";
             // 
             // PessoasClientes
             // 
@@ -292,12 +292,12 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txtidProfissionais);
-            this.Controls.Add(this.btnAtualizarProfCargo);
-            this.Controls.Add(this.btnPesquisarProfCargo);
-            this.Controls.Add(this.btnDeletarProfCargo);
-            this.Controls.Add(this.btnCadastrarProfissionais);
+            this.Controls.Add(this.txt);
+            this.Controls.Add(this.txtId_cliente);
+            this.Controls.Add(this.btnAtualizarClientes);
+            this.Controls.Add(this.btnPesquisarClientes);
+            this.Controls.Add(this.btnDeletarClientes);
+            this.Controls.Add(this.btnCadastrarClientes);
             this.Controls.Add(this.dgvClientes);
             this.Controls.Add(this.lblClientes);
             this.Controls.Add(this.pictureBoxFundo);
@@ -316,17 +316,17 @@
         private System.Windows.Forms.PictureBox pictureBoxFundo;
         private System.Windows.Forms.Label lblClientes;
         private System.Windows.Forms.DataGridView dgvClientes;
-        private System.Windows.Forms.Button btnCadastrarProfissionais;
-        private System.Windows.Forms.Button btnAtualizarProfCargo;
-        private System.Windows.Forms.Button btnPesquisarProfCargo;
-        private System.Windows.Forms.Button btnDeletarProfCargo;
+        private System.Windows.Forms.Button btnCadastrarClientes;
+        private System.Windows.Forms.Button btnAtualizarClientes;
+        private System.Windows.Forms.Button btnPesquisarClientes;
+        private System.Windows.Forms.Button btnDeletarClientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_cliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn usuario_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn telefone;
         private System.Windows.Forms.DataGridViewTextBoxColumn rua;
         private System.Windows.Forms.DataGridViewTextBoxColumn numero;
-        private System.Windows.Forms.TextBox txtidProfissionais;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtId_cliente;
+        private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;

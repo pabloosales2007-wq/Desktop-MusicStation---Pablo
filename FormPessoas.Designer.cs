@@ -77,6 +77,7 @@
             this.btnEmpresa.TabIndex = 6;
             this.btnEmpresa.Text = "Empresa";
             this.btnEmpresa.UseVisualStyleBackColor = false;
+            this.btnEmpresa.Click += new System.EventHandler(this.btnEmpresa_Click);
             // 
             // btnAdministradores
             // 
@@ -92,6 +93,7 @@
             this.btnAdministradores.TabIndex = 5;
             this.btnAdministradores.Text = "Administradores";
             this.btnAdministradores.UseVisualStyleBackColor = false;
+            this.btnAdministradores.Click += new System.EventHandler(this.btnAdministradores_Click);
             // 
             // btnClientes
             // 
