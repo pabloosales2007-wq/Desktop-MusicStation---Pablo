@@ -23,5 +23,12 @@ namespace Telas_Desktop_MusicStation___Pablo
             principal.Show();
             this.Hide();
         }
+
+        private void btnCatalogo_Click(object sender, EventArgs e)
+        {
+            FormCatalogo principal = new FormCatalogo ();
+            principal.Show();
+            this.Hide();
+        }
     }
 }

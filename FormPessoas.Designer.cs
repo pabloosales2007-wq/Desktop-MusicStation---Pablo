@@ -34,12 +34,12 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProfissionalCargo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.btnProfissionais = new System.Windows.Forms.Button();
             this.btnCargos = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.panelCima = new System.Windows.Forms.Panel();
             this.panelPrincipal = new System.Windows.Forms.Panel();
-            this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.panelEsquerdo.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).BeginInit();
@@ -71,9 +71,9 @@
             this.btnEmpresa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEmpresa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnEmpresa.Location = new System.Drawing.Point(3, 282);
+            this.btnEmpresa.Location = new System.Drawing.Point(12, 336);
             this.btnEmpresa.Name = "btnEmpresa";
-            this.btnEmpresa.Size = new System.Drawing.Size(194, 23);
+            this.btnEmpresa.Size = new System.Drawing.Size(179, 32);
             this.btnEmpresa.TabIndex = 6;
             this.btnEmpresa.Text = "Empresa";
             this.btnEmpresa.UseVisualStyleBackColor = false;
@@ -87,9 +87,9 @@
             this.btnAdministradores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdministradores.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnAdministradores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnAdministradores.Location = new System.Drawing.Point(3, 253);
+            this.btnAdministradores.Location = new System.Drawing.Point(12, 298);
             this.btnAdministradores.Name = "btnAdministradores";
-            this.btnAdministradores.Size = new System.Drawing.Size(194, 23);
+            this.btnAdministradores.Size = new System.Drawing.Size(179, 32);
             this.btnAdministradores.TabIndex = 5;
             this.btnAdministradores.Text = "Administradores";
             this.btnAdministradores.UseVisualStyleBackColor = false;
@@ -103,9 +103,9 @@
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnClientes.Location = new System.Drawing.Point(3, 224);
+            this.btnClientes.Location = new System.Drawing.Point(12, 260);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(194, 23);
+            this.btnClientes.Size = new System.Drawing.Size(179, 32);
             this.btnClientes.TabIndex = 4;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.UseVisualStyleBackColor = false;
@@ -119,9 +119,9 @@
             this.btnProfissionalCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProfissionalCargo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnProfissionalCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnProfissionalCargo.Location = new System.Drawing.Point(3, 195);
+            this.btnProfissionalCargo.Location = new System.Drawing.Point(12, 222);
             this.btnProfissionalCargo.Name = "btnProfissionalCargo";
-            this.btnProfissionalCargo.Size = new System.Drawing.Size(194, 23);
+            this.btnProfissionalCargo.Size = new System.Drawing.Size(179, 32);
             this.btnProfissionalCargo.TabIndex = 3;
             this.btnProfissionalCargo.Text = "Profissional Cargo";
             this.btnProfissionalCargo.UseVisualStyleBackColor = false;
@@ -135,6 +135,16 @@
             this.panel2.Size = new System.Drawing.Size(191, 99);
             this.panel2.TabIndex = 0;
             // 
+            // pboxLogo
+            // 
+            this.pboxLogo.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.music_station_vetorizada_1;
+            this.pboxLogo.Location = new System.Drawing.Point(9, 9);
+            this.pboxLogo.Name = "pboxLogo";
+            this.pboxLogo.Size = new System.Drawing.Size(179, 87);
+            this.pboxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxLogo.TabIndex = 0;
+            this.pboxLogo.TabStop = false;
+            // 
             // btnProfissionais
             // 
             this.btnProfissionais.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
@@ -143,9 +153,9 @@
             this.btnProfissionais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProfissionais.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnProfissionais.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnProfissionais.Location = new System.Drawing.Point(3, 166);
+            this.btnProfissionais.Location = new System.Drawing.Point(12, 184);
             this.btnProfissionais.Name = "btnProfissionais";
-            this.btnProfissionais.Size = new System.Drawing.Size(194, 23);
+            this.btnProfissionais.Size = new System.Drawing.Size(179, 32);
             this.btnProfissionais.TabIndex = 2;
             this.btnProfissionais.Text = "Profissionais";
             this.btnProfissionais.UseVisualStyleBackColor = false;
@@ -159,9 +169,9 @@
             this.btnCargos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnCargos.Location = new System.Drawing.Point(3, 137);
+            this.btnCargos.Location = new System.Drawing.Point(12, 146);
             this.btnCargos.Name = "btnCargos";
-            this.btnCargos.Size = new System.Drawing.Size(194, 23);
+            this.btnCargos.Size = new System.Drawing.Size(179, 32);
             this.btnCargos.TabIndex = 1;
             this.btnCargos.Text = "Cargos";
             this.btnCargos.UseVisualStyleBackColor = false;
@@ -175,9 +185,9 @@
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuarios.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
-            this.btnUsuarios.Location = new System.Drawing.Point(3, 108);
+            this.btnUsuarios.Location = new System.Drawing.Point(12, 108);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(194, 23);
+            this.btnUsuarios.Size = new System.Drawing.Size(179, 32);
             this.btnUsuarios.TabIndex = 0;
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.UseVisualStyleBackColor = false;
@@ -199,16 +209,6 @@
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(668, 444);
             this.panelPrincipal.TabIndex = 2;
-            // 
-            // pboxLogo
-            // 
-            this.pboxLogo.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.music_station_vetorizada_1;
-            this.pboxLogo.Location = new System.Drawing.Point(9, 9);
-            this.pboxLogo.Name = "pboxLogo";
-            this.pboxLogo.Size = new System.Drawing.Size(179, 87);
-            this.pboxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxLogo.TabIndex = 0;
-            this.pboxLogo.TabStop = false;
             // 
             // FormPessoas
             // 
