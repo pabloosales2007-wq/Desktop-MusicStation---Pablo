@@ -64,17 +64,113 @@
     <Compile Include="FormCatalogoInstrumentos.Designer.cs">
       <DependentUpon>FormCatalogoInstrumentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCatalogoServicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCatalogoServicos.Designer.cs">
+      <DependentUpon>FormCatalogoServicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinanceiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinanceiro.Designer.cs">
+      <DependentUpon>FormFinanceiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinanceiroFormasPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinanceiroFormasPagamento.Designer.cs">
+      <DependentUpon>FormFinanceiroFormasPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinanceiroPagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinanceiroPagamentos.Designer.cs">
+      <DependentUpon>FormFinanceiroPagamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMensagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMensagens.Designer.cs">
+      <DependentUpon>FormMensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMensagensAvaliacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMensagensAvaliacoes.Designer.cs">
+      <DependentUpon>FormMensagensAvaliacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMensagensChats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMensagensChats.Designer.cs">
+      <DependentUpon>FormMensagensChats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMensagensMensagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMensagensMensagens.Designer.cs">
+      <DependentUpon>FormMensagensMensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMensagensNotificacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMensagensNotificacoes.Designer.cs">
+      <DependentUpon>FormMensagensNotificacoes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMenuPrincipal.Designer.cs">
       <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOperacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOperacional.Designer.cs">
+      <DependentUpon>FormOperacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOperacionalLocacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOperacionalLocacoes.Designer.cs">
+      <DependentUpon>FormOperacionalLocacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOperacionalLocacoesItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOperacionalLocacoesItens.Designer.cs">
+      <DependentUpon>FormOperacionalLocacoesItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOperacionalPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOperacionalPedidos.Designer.cs">
+      <DependentUpon>FormOperacionalPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOperacionalServicoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOperacionalServicoPedido.Designer.cs">
+      <DependentUpon>FormOperacionalServicoPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPessoas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPessoas.Designer.cs">
       <DependentUpon>FormPessoas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransacoesPagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransacoesPagamentos.Designer.cs">
+      <DependentUpon>FormTransacoesPagamentos.cs</DependentUpon>
     </Compile>
     <Compile Include="PessoasAdministradores.cs">
       <SubType>Form</SubType>
@@ -132,11 +228,59 @@
     <EmbeddedResource Include="FormCatalogoInstrumentos.resx">
       <DependentUpon>FormCatalogoInstrumentos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCatalogoServicos.resx">
+      <DependentUpon>FormCatalogoServicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinanceiro.resx">
+      <DependentUpon>FormFinanceiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinanceiroFormasPagamento.resx">
+      <DependentUpon>FormFinanceiroFormasPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinanceiroPagamentos.resx">
+      <DependentUpon>FormFinanceiroPagamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMensagens.resx">
+      <DependentUpon>FormMensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMensagensAvaliacoes.resx">
+      <DependentUpon>FormMensagensAvaliacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMensagensChats.resx">
+      <DependentUpon>FormMensagensChats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMensagensMensagens.resx">
+      <DependentUpon>FormMensagensMensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMensagensNotificacoes.resx">
+      <DependentUpon>FormMensagensNotificacoes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenuPrincipal.resx">
       <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormOperacional.resx">
+      <DependentUpon>FormOperacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOperacionalLocacoes.resx">
+      <DependentUpon>FormOperacionalLocacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOperacionalLocacoesItens.resx">
+      <DependentUpon>FormOperacionalLocacoesItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOperacionalPedidos.resx">
+      <DependentUpon>FormOperacionalPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOperacionalServicoPedido.resx">
+      <DependentUpon>FormOperacionalServicoPedido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPessoas.resx">
       <DependentUpon>FormPessoas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransacoesPagamentos.resx">
+      <DependentUpon>FormTransacoesPagamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PessoasAdministradores.resx">
       <DependentUpon>PessoasAdministradores.cs</DependentUpon>
@@ -209,6 +353,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuprincipaç.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pessoas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafico ficticio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ServicoFicticio.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

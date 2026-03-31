@@ -30,5 +30,40 @@ namespace Telas_Desktop_MusicStation___Pablo
             principal.Show();
             this.Hide();
         }
+
+        private void btnOperacional_Click(object sender, EventArgs e)
+        {
+            FormOperacional principal = new FormOperacional ();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void btnFinanceiro_Click(object sender, EventArgs e)
+        {
+            FormFinanceiro principal = new FormFinanceiro ();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void btnMensagem_Click(object sender, EventArgs e)
+        {
+            FormMensagens principal = new FormMensagens ();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void pictureBoxLogout_Click(object sender, EventArgs e)
+        {
+            telalogin principal = new telalogin ();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            FormDashboard principal = new FormDashboard ();
+            principal.Show();
+            this.Hide();
+        }
     }
 }

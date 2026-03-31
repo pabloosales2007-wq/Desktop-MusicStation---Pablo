@@ -41,15 +41,15 @@
             this.btnPesquisarClientes = new System.Windows.Forms.Button();
             this.btnDeletarClientes = new System.Windows.Forms.Button();
             this.txtId_cliente = new System.Windows.Forms.TextBox();
-            this.txt = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.lblidProfissionais = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtUsuario_id = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.txtRua = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.lblid_cliente = new System.Windows.Forms.Label();
+            this.lblUsuario_id = new System.Windows.Forms.Label();
+            this.lblTelefone = new System.Windows.Forms.Label();
+            this.lblRua = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
@@ -182,101 +182,101 @@
             this.txtId_cliente.Size = new System.Drawing.Size(64, 20);
             this.txtId_cliente.TabIndex = 48;
             // 
-            // txt
+            // txtUsuario_id
             // 
-            this.txt.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt.ForeColor = System.Drawing.Color.Black;
-            this.txt.Location = new System.Drawing.Point(151, 98);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(64, 20);
-            this.txt.TabIndex = 49;
+            this.txtUsuario_id.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario_id.ForeColor = System.Drawing.Color.Black;
+            this.txtUsuario_id.Location = new System.Drawing.Point(151, 98);
+            this.txtUsuario_id.Name = "txtUsuario_id";
+            this.txtUsuario_id.Size = new System.Drawing.Size(64, 20);
+            this.txtUsuario_id.TabIndex = 49;
             // 
-            // textBox2
+            // txtTelefone
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(234, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(136, 20);
-            this.textBox2.TabIndex = 50;
+            this.txtTelefone.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.ForeColor = System.Drawing.Color.Black;
+            this.txtTelefone.Location = new System.Drawing.Point(234, 98);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(136, 20);
+            this.txtTelefone.TabIndex = 50;
             // 
-            // textBox3
+            // txtRua
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(63, 140);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(307, 20);
-            this.textBox3.TabIndex = 51;
+            this.txtRua.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRua.ForeColor = System.Drawing.Color.Black;
+            this.txtRua.Location = new System.Drawing.Point(63, 140);
+            this.txtRua.Name = "txtRua";
+            this.txtRua.Size = new System.Drawing.Size(307, 20);
+            this.txtRua.TabIndex = 51;
             // 
-            // textBox4
+            // txtNumero
             // 
-            this.textBox4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(62, 180);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(89, 20);
-            this.textBox4.TabIndex = 52;
+            this.txtNumero.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero.ForeColor = System.Drawing.Color.Black;
+            this.txtNumero.Location = new System.Drawing.Point(62, 180);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(89, 20);
+            this.txtNumero.TabIndex = 52;
             // 
-            // lblidProfissionais
+            // lblid_cliente
             // 
-            this.lblidProfissionais.AutoSize = true;
-            this.lblidProfissionais.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.lblidProfissionais.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblidProfissionais.ForeColor = System.Drawing.Color.White;
-            this.lblidProfissionais.Location = new System.Drawing.Point(60, 79);
-            this.lblidProfissionais.Name = "lblidProfissionais";
-            this.lblidProfissionais.Size = new System.Drawing.Size(73, 16);
-            this.lblidProfissionais.TabIndex = 53;
-            this.lblidProfissionais.Text = "Id_cliente:";
+            this.lblid_cliente.AutoSize = true;
+            this.lblid_cliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.lblid_cliente.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblid_cliente.ForeColor = System.Drawing.Color.White;
+            this.lblid_cliente.Location = new System.Drawing.Point(60, 79);
+            this.lblid_cliente.Name = "lblid_cliente";
+            this.lblid_cliente.Size = new System.Drawing.Size(73, 16);
+            this.lblid_cliente.TabIndex = 53;
+            this.lblid_cliente.Text = "Id_cliente:";
             // 
-            // label1
+            // lblUsuario_id
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(148, 79);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
-            this.label1.TabIndex = 54;
-            this.label1.Text = "usuario_id:";
+            this.lblUsuario_id.AutoSize = true;
+            this.lblUsuario_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.lblUsuario_id.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario_id.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario_id.Location = new System.Drawing.Point(148, 79);
+            this.lblUsuario_id.Name = "lblUsuario_id";
+            this.lblUsuario_id.Size = new System.Drawing.Size(77, 16);
+            this.lblUsuario_id.TabIndex = 54;
+            this.lblUsuario_id.Text = "usuario_id:";
             // 
-            // label2
+            // lblTelefone
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(231, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 16);
-            this.label2.TabIndex = 55;
-            this.label2.Text = "telefone:";
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.lblTelefone.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.ForeColor = System.Drawing.Color.White;
+            this.lblTelefone.Location = new System.Drawing.Point(231, 79);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(63, 16);
+            this.lblTelefone.TabIndex = 55;
+            this.lblTelefone.Text = "telefone:";
             // 
-            // label3
+            // lblRua
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(60, 121);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 16);
-            this.label3.TabIndex = 56;
-            this.label3.Text = "Rua:";
+            this.lblRua.AutoSize = true;
+            this.lblRua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.lblRua.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRua.ForeColor = System.Drawing.Color.White;
+            this.lblRua.Location = new System.Drawing.Point(60, 121);
+            this.lblRua.Name = "lblRua";
+            this.lblRua.Size = new System.Drawing.Size(36, 16);
+            this.lblRua.TabIndex = 56;
+            this.lblRua.Text = "Rua:";
             // 
-            // label4
+            // lblNumero
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(59, 162);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 16);
-            this.label4.TabIndex = 57;
-            this.label4.Text = "numero";
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.lblNumero.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.ForeColor = System.Drawing.Color.White;
+            this.lblNumero.Location = new System.Drawing.Point(59, 162);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(56, 16);
+            this.lblNumero.TabIndex = 57;
+            this.lblNumero.Text = "numero";
             // 
             // PessoasClientes
             // 
@@ -284,15 +284,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblidProfissionais);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.txt);
+            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.lblRua);
+            this.Controls.Add(this.lblTelefone);
+            this.Controls.Add(this.lblUsuario_id);
+            this.Controls.Add(this.lblid_cliente);
+            this.Controls.Add(this.txtNumero);
+            this.Controls.Add(this.txtRua);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtUsuario_id);
             this.Controls.Add(this.txtId_cliente);
             this.Controls.Add(this.btnAtualizarClientes);
             this.Controls.Add(this.btnPesquisarClientes);
@@ -326,14 +326,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn rua;
         private System.Windows.Forms.DataGridViewTextBoxColumn numero;
         private System.Windows.Forms.TextBox txtId_cliente;
-        private System.Windows.Forms.TextBox txt;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label lblidProfissionais;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtUsuario_id;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.TextBox txtRua;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.Label lblid_cliente;
+        private System.Windows.Forms.Label lblUsuario_id;
+        private System.Windows.Forms.Label lblTelefone;
+        private System.Windows.Forms.Label lblRua;
+        private System.Windows.Forms.Label lblNumero;
     }
 }

@@ -36,8 +36,10 @@
             this.btnFinanceiro = new System.Windows.Forms.Button();
             this.panelEsquerdo = new System.Windows.Forms.Panel();
             this.panelCima = new System.Windows.Forms.Panel();
+            this.pictureBoxLogout = new System.Windows.Forms.PictureBox();
             this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.panelEsquerdo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,6 +89,7 @@
             this.btnOperacional.Text = "OPERACIONAL";
             this.btnOperacional.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOperacional.UseVisualStyleBackColor = false;
+            this.btnOperacional.Click += new System.EventHandler(this.btnOperacional_Click);
             // 
             // btnDashboard
             // 
@@ -102,6 +105,7 @@
             this.btnDashboard.Text = "DASHBOARD";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // btnMensagem
             // 
@@ -117,6 +121,7 @@
             this.btnMensagem.Text = "MENSAGENS";
             this.btnMensagem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMensagem.UseVisualStyleBackColor = false;
+            this.btnMensagem.Click += new System.EventHandler(this.btnMensagem_Click);
             // 
             // btnFinanceiro
             // 
@@ -132,11 +137,13 @@
             this.btnFinanceiro.Text = "FINANCEIRO";
             this.btnFinanceiro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFinanceiro.UseVisualStyleBackColor = false;
+            this.btnFinanceiro.Click += new System.EventHandler(this.btnFinanceiro_Click);
             // 
             // panelEsquerdo
             // 
             this.panelEsquerdo.AllowDrop = true;
             this.panelEsquerdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.panelEsquerdo.Controls.Add(this.pictureBoxLogout);
             this.panelEsquerdo.Controls.Add(this.pboxLogo);
             this.panelEsquerdo.Controls.Add(this.btnPessoas);
             this.panelEsquerdo.Controls.Add(this.btnDashboard);
@@ -159,6 +166,17 @@
             this.panelCima.Size = new System.Drawing.Size(652, 48);
             this.panelCima.TabIndex = 10;
             // 
+            // pictureBoxLogout
+            // 
+            this.pictureBoxLogout.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.Logout;
+            this.pictureBoxLogout.Location = new System.Drawing.Point(12, 410);
+            this.pictureBoxLogout.Name = "pictureBoxLogout";
+            this.pictureBoxLogout.Size = new System.Drawing.Size(35, 31);
+            this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogout.TabIndex = 10;
+            this.pictureBoxLogout.TabStop = false;
+            this.pictureBoxLogout.Click += new System.EventHandler(this.pictureBoxLogout_Click);
+            // 
             // pboxLogo
             // 
             this.pboxLogo.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.music_station_vetorizada_1;
@@ -180,6 +198,7 @@
             this.Name = "FormMenuPrincipal";
             this.Text = "FormMenuPrincipal";
             this.panelEsquerdo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).EndInit();
             this.ResumeLayout(false);
 
@@ -195,5 +214,6 @@
         private System.Windows.Forms.Panel panelEsquerdo;
         private System.Windows.Forms.Panel panelCima;
         private System.Windows.Forms.PictureBox pboxLogo;
+        private System.Windows.Forms.PictureBox pictureBoxLogout;
     }
 }

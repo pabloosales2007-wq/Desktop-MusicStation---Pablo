@@ -34,14 +34,18 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProfissionalCargo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.btnProfissionais = new System.Windows.Forms.Button();
             this.btnCargos = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.panelCima = new System.Windows.Forms.Panel();
             this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.pictureBoxMenu = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLogout = new System.Windows.Forms.PictureBox();
+            this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.panelEsquerdo.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,6 +53,8 @@
             // 
             this.panelEsquerdo.AllowDrop = true;
             this.panelEsquerdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.panelEsquerdo.Controls.Add(this.pictureBoxMenu);
+            this.panelEsquerdo.Controls.Add(this.pictureBoxLogout);
             this.panelEsquerdo.Controls.Add(this.btnEmpresa);
             this.panelEsquerdo.Controls.Add(this.btnAdministradores);
             this.panelEsquerdo.Controls.Add(this.btnClientes);
@@ -135,16 +141,6 @@
             this.panel2.Size = new System.Drawing.Size(191, 99);
             this.panel2.TabIndex = 0;
             // 
-            // pboxLogo
-            // 
-            this.pboxLogo.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.music_station_vetorizada_1;
-            this.pboxLogo.Location = new System.Drawing.Point(9, 9);
-            this.pboxLogo.Name = "pboxLogo";
-            this.pboxLogo.Size = new System.Drawing.Size(179, 87);
-            this.pboxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxLogo.TabIndex = 0;
-            this.pboxLogo.TabStop = false;
-            // 
             // btnProfissionais
             // 
             this.btnProfissionais.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(30)))), ((int)(((byte)(98)))));
@@ -210,6 +206,38 @@
             this.panelPrincipal.Size = new System.Drawing.Size(668, 444);
             this.panelPrincipal.TabIndex = 2;
             // 
+            // pictureBoxMenu
+            // 
+            this.pictureBoxMenu.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.menuprincipaç;
+            this.pictureBoxMenu.Location = new System.Drawing.Point(156, 449);
+            this.pictureBoxMenu.Name = "pictureBoxMenu";
+            this.pictureBoxMenu.Size = new System.Drawing.Size(35, 31);
+            this.pictureBoxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxMenu.TabIndex = 8;
+            this.pictureBoxMenu.TabStop = false;
+            this.pictureBoxMenu.Click += new System.EventHandler(this.pictureBoxMenu_Click);
+            // 
+            // pictureBoxLogout
+            // 
+            this.pictureBoxLogout.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.Logout;
+            this.pictureBoxLogout.Location = new System.Drawing.Point(12, 449);
+            this.pictureBoxLogout.Name = "pictureBoxLogout";
+            this.pictureBoxLogout.Size = new System.Drawing.Size(35, 31);
+            this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogout.TabIndex = 7;
+            this.pictureBoxLogout.TabStop = false;
+            this.pictureBoxLogout.Click += new System.EventHandler(this.pictureBoxLogout_Click);
+            // 
+            // pboxLogo
+            // 
+            this.pboxLogo.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.music_station_vetorizada_1;
+            this.pboxLogo.Location = new System.Drawing.Point(9, 9);
+            this.pboxLogo.Name = "pboxLogo";
+            this.pboxLogo.Size = new System.Drawing.Size(179, 87);
+            this.pboxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxLogo.TabIndex = 0;
+            this.pboxLogo.TabStop = false;
+            // 
             // FormPessoas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,6 +251,8 @@
             this.Text = "a";
             this.panelEsquerdo.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).EndInit();
             this.ResumeLayout(false);
 
@@ -242,5 +272,7 @@
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnProfissionalCargo;
         private System.Windows.Forms.Panel panelPrincipal;
+        private System.Windows.Forms.PictureBox pictureBoxLogout;
+        private System.Windows.Forms.PictureBox pictureBoxMenu;
     }
 }

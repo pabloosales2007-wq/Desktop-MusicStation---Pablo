@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Telas_Desktop_MusicStation___Pablo
 {
-    public partial class FormCatalogo : Form
+    public partial class FormOperacional : Form
     {
-        public FormCatalogo()
+        public FormOperacional()
         {
             InitializeComponent();
         }
@@ -39,15 +39,24 @@ namespace Telas_Desktop_MusicStation___Pablo
             formularioAtual.Show();
         }
 
-
-        private void btnInstrumentos_Click(object sender, EventArgs e)
+        private void btnPedidos_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FormCatalogoInstrumentos());
+            AbrirFormulario(new FormOperacionalPedidos());
         }
 
-        private void btnServicos_Click(object sender, EventArgs e)
+        private void btnServicosPedidos_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FormCatalogoServicos());
+            AbrirFormulario(new FormOperacionalServicoPedido());
+        }
+
+        private void btnLocacoes_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FormOperacionalLocacoes());
+        }
+
+        private void btnLocacaoItens_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FormOperacionalLocacoesItens());
         }
 
         private void pictureBoxLogout_Click(object sender, EventArgs e)

@@ -33,14 +33,20 @@
             this.btnInstrumentos = new System.Windows.Forms.Button();
             this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.panelCima = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelConteudo = new System.Windows.Forms.Panel();
+            this.pictureBoxMenu = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLogout = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.panel1.Controls.Add(this.pictureBoxMenu);
+            this.panel1.Controls.Add(this.pictureBoxLogout);
             this.panel1.Controls.Add(this.btnServicos);
             this.panel1.Controls.Add(this.btnInstrumentos);
             this.panel1.Controls.Add(this.pboxLogo);
@@ -64,6 +70,7 @@
             this.btnServicos.TabIndex = 12;
             this.btnServicos.Text = "Serviços";
             this.btnServicos.UseVisualStyleBackColor = false;
+            this.btnServicos.Click += new System.EventHandler(this.btnServicos_Click);
             // 
             // btnInstrumentos
             // 
@@ -79,6 +86,7 @@
             this.btnInstrumentos.TabIndex = 11;
             this.btnInstrumentos.Text = "Instrumentos";
             this.btnInstrumentos.UseVisualStyleBackColor = false;
+            this.btnInstrumentos.Click += new System.EventHandler(this.btnInstrumentos_Click);
             // 
             // pboxLogo
             // 
@@ -99,13 +107,35 @@
             this.panelCima.Size = new System.Drawing.Size(668, 48);
             this.panelCima.TabIndex = 2;
             // 
-            // panel2
+            // panelConteudo
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(200, 48);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(668, 444);
-            this.panel2.TabIndex = 3;
+            this.panelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelConteudo.Location = new System.Drawing.Point(200, 48);
+            this.panelConteudo.Name = "panelConteudo";
+            this.panelConteudo.Size = new System.Drawing.Size(668, 444);
+            this.panelConteudo.TabIndex = 3;
+            // 
+            // pictureBoxMenu
+            // 
+            this.pictureBoxMenu.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.menuprincipaç;
+            this.pictureBoxMenu.Location = new System.Drawing.Point(156, 449);
+            this.pictureBoxMenu.Name = "pictureBoxMenu";
+            this.pictureBoxMenu.Size = new System.Drawing.Size(35, 31);
+            this.pictureBoxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxMenu.TabIndex = 10;
+            this.pictureBoxMenu.TabStop = false;
+            this.pictureBoxMenu.Click += new System.EventHandler(this.pictureBoxMenu_Click);
+            // 
+            // pictureBoxLogout
+            // 
+            this.pictureBoxLogout.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.Logout;
+            this.pictureBoxLogout.Location = new System.Drawing.Point(12, 449);
+            this.pictureBoxLogout.Name = "pictureBoxLogout";
+            this.pictureBoxLogout.Size = new System.Drawing.Size(35, 31);
+            this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogout.TabIndex = 9;
+            this.pictureBoxLogout.TabStop = false;
+            this.pictureBoxLogout.Click += new System.EventHandler(this.pictureBoxLogout_Click);
             // 
             // FormCatalogo
             // 
@@ -113,7 +143,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(868, 492);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelConteudo);
             this.Controls.Add(this.panelCima);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -121,6 +151,8 @@
             this.Text = "FormCatalogo";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,6 +164,8 @@
         private System.Windows.Forms.Button btnServicos;
         private System.Windows.Forms.Button btnInstrumentos;
         private System.Windows.Forms.Panel panelCima;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelConteudo;
+        private System.Windows.Forms.PictureBox pictureBoxMenu;
+        private System.Windows.Forms.PictureBox pictureBoxLogout;
     }
 }

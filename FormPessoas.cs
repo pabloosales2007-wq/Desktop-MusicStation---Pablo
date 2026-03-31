@@ -86,5 +86,19 @@ namespace Telas_Desktop_MusicStation___Pablo
         {
             AbrirFormulario(new PessoasEmpresa());
         }
+
+        private void pictureBoxLogout_Click(object sender, EventArgs e)
+        {
+            telalogin principal = new telalogin();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void pictureBoxMenu_Click(object sender, EventArgs e)
+        {
+            FormMenuPrincipal principal = new FormMenuPrincipal();
+            principal.Show();
+            this.Hide();
+        }
     }
 }
