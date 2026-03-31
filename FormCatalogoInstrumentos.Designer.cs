@@ -42,17 +42,17 @@
             this.txtPrecoLocacao = new System.Windows.Forms.TextBox();
             this.txtDisponivel = new System.Windows.Forms.TextBox();
             this.dgvInstrumentos = new System.Windows.Forms.DataGridView();
+            this.btnCadastrarInstrumentos = new System.Windows.Forms.Button();
+            this.btnAtualizarInstrumentos = new System.Windows.Forms.Button();
+            this.btnPesquisarInstrumentos = new System.Windows.Forms.Button();
+            this.btnDeletarInstrumentos = new System.Windows.Forms.Button();
+            this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
             this.id_instrumentos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empresa_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.preco_locacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Disponivel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnCadastrarInstrumentos = new System.Windows.Forms.Button();
-            this.btnAtualizarInstrumentos = new System.Windows.Forms.Button();
-            this.btnPesquisarInstrumentos = new System.Windows.Forms.Button();
-            this.btnDeletarInstrumentos = new System.Windows.Forms.Button();
-            this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInstrumentos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
             this.SuspendLayout();
@@ -200,36 +200,6 @@
             this.dgvInstrumentos.Size = new System.Drawing.Size(543, 150);
             this.dgvInstrumentos.TabIndex = 66;
             // 
-            // id_instrumentos
-            // 
-            this.id_instrumentos.HeaderText = "id_instrumentos";
-            this.id_instrumentos.Name = "id_instrumentos";
-            // 
-            // empresa_id
-            // 
-            this.empresa_id.HeaderText = "empresa_id";
-            this.empresa_id.Name = "empresa_id";
-            // 
-            // Nome
-            // 
-            this.Nome.HeaderText = "Nome";
-            this.Nome.Name = "Nome";
-            // 
-            // Descricao
-            // 
-            this.Descricao.HeaderText = "Descrição";
-            this.Descricao.Name = "Descricao";
-            // 
-            // preco_locacao
-            // 
-            this.preco_locacao.HeaderText = "Preço Locação";
-            this.preco_locacao.Name = "preco_locacao";
-            // 
-            // Disponivel
-            // 
-            this.Disponivel.HeaderText = "Disponível";
-            this.Disponivel.Name = "Disponivel";
-            // 
             // btnCadastrarInstrumentos
             // 
             this.btnCadastrarInstrumentos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(167)))), ((int)(((byte)(46)))));
@@ -296,6 +266,36 @@
             this.pictureBoxFundo.TabIndex = 24;
             this.pictureBoxFundo.TabStop = false;
             // 
+            // id_instrumentos
+            // 
+            this.id_instrumentos.HeaderText = "id_instrumentos";
+            this.id_instrumentos.Name = "id_instrumentos";
+            // 
+            // empresa_id
+            // 
+            this.empresa_id.HeaderText = "empresa_id";
+            this.empresa_id.Name = "empresa_id";
+            // 
+            // Nome
+            // 
+            this.Nome.HeaderText = "Nome";
+            this.Nome.Name = "Nome";
+            // 
+            // Descricao
+            // 
+            this.Descricao.HeaderText = "Descrição";
+            this.Descricao.Name = "Descricao";
+            // 
+            // preco_locacao
+            // 
+            this.preco_locacao.HeaderText = "Preço Locação";
+            this.preco_locacao.Name = "preco_locacao";
+            // 
+            // Disponivel
+            // 
+            this.Disponivel.HeaderText = "Disponivel";
+            this.Disponivel.Name = "Disponivel";
+            // 
             // FormCatalogoInstrumentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -348,15 +348,15 @@
         private System.Windows.Forms.TextBox txtPrecoLocacao;
         private System.Windows.Forms.TextBox txtDisponivel;
         private System.Windows.Forms.DataGridView dgvInstrumentos;
+        private System.Windows.Forms.Button btnCadastrarInstrumentos;
+        private System.Windows.Forms.Button btnAtualizarInstrumentos;
+        private System.Windows.Forms.Button btnPesquisarInstrumentos;
+        private System.Windows.Forms.Button btnDeletarInstrumentos;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_instrumentos;
         private System.Windows.Forms.DataGridViewTextBoxColumn empresa_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descricao;
         private System.Windows.Forms.DataGridViewTextBoxColumn preco_locacao;
         private System.Windows.Forms.DataGridViewTextBoxColumn Disponivel;
-        private System.Windows.Forms.Button btnCadastrarInstrumentos;
-        private System.Windows.Forms.Button btnAtualizarInstrumentos;
-        private System.Windows.Forms.Button btnPesquisarInstrumentos;
-        private System.Windows.Forms.Button btnDeletarInstrumentos;
     }
 }
