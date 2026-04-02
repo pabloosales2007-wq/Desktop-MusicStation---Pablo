@@ -40,18 +40,18 @@
             this.btnPesquisarPagamentos = new System.Windows.Forms.Button();
             this.btnDeletarPagamentos = new System.Windows.Forms.Button();
             this.dgvPagamentos = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.id_pagamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pedido_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.forma_pagamento_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.data_pagamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valor_pago = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Acompanhamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtid_pagamento = new System.Windows.Forms.TextBox();
+            this.txtforma_pagamento_id = new System.Windows.Forms.TextBox();
+            this.txtpedido_id = new System.Windows.Forms.TextBox();
+            this.txtdata_pagamento = new System.Windows.Forms.TextBox();
+            this.txtvalor_pago = new System.Windows.Forms.TextBox();
+            this.txtacompanhamento = new System.Windows.Forms.TextBox();
             this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPagamentos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
@@ -214,48 +214,6 @@
             this.dgvPagamentos.Size = new System.Drawing.Size(542, 150);
             this.dgvPagamentos.TabIndex = 73;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(63, 94);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(99, 20);
-            this.textBox1.TabIndex = 74;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(245, 94);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(146, 20);
-            this.textBox2.TabIndex = 75;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(168, 94);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(71, 20);
-            this.textBox3.TabIndex = 76;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(63, 133);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(110, 20);
-            this.textBox4.TabIndex = 77;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(182, 133);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(79, 20);
-            this.textBox5.TabIndex = 78;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(63, 173);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(124, 20);
-            this.textBox6.TabIndex = 79;
-            // 
             // id_pagamento
             // 
             this.id_pagamento.HeaderText = "id_pagamento";
@@ -286,6 +244,48 @@
             this.Acompanhamento.HeaderText = "Acompanhamento";
             this.Acompanhamento.Name = "Acompanhamento";
             // 
+            // txtid_pagamento
+            // 
+            this.txtid_pagamento.Location = new System.Drawing.Point(63, 94);
+            this.txtid_pagamento.Name = "txtid_pagamento";
+            this.txtid_pagamento.Size = new System.Drawing.Size(99, 20);
+            this.txtid_pagamento.TabIndex = 74;
+            // 
+            // txtforma_pagamento_id
+            // 
+            this.txtforma_pagamento_id.Location = new System.Drawing.Point(245, 94);
+            this.txtforma_pagamento_id.Name = "txtforma_pagamento_id";
+            this.txtforma_pagamento_id.Size = new System.Drawing.Size(146, 20);
+            this.txtforma_pagamento_id.TabIndex = 75;
+            // 
+            // txtpedido_id
+            // 
+            this.txtpedido_id.Location = new System.Drawing.Point(168, 94);
+            this.txtpedido_id.Name = "txtpedido_id";
+            this.txtpedido_id.Size = new System.Drawing.Size(71, 20);
+            this.txtpedido_id.TabIndex = 76;
+            // 
+            // txtdata_pagamento
+            // 
+            this.txtdata_pagamento.Location = new System.Drawing.Point(63, 133);
+            this.txtdata_pagamento.Name = "txtdata_pagamento";
+            this.txtdata_pagamento.Size = new System.Drawing.Size(110, 20);
+            this.txtdata_pagamento.TabIndex = 77;
+            // 
+            // txtvalor_pago
+            // 
+            this.txtvalor_pago.Location = new System.Drawing.Point(182, 133);
+            this.txtvalor_pago.Name = "txtvalor_pago";
+            this.txtvalor_pago.Size = new System.Drawing.Size(79, 20);
+            this.txtvalor_pago.TabIndex = 78;
+            // 
+            // txtacompanhamento
+            // 
+            this.txtacompanhamento.Location = new System.Drawing.Point(63, 173);
+            this.txtacompanhamento.Name = "txtacompanhamento";
+            this.txtacompanhamento.Size = new System.Drawing.Size(124, 20);
+            this.txtacompanhamento.TabIndex = 79;
+            // 
             // pictureBoxFundo
             // 
             this.pictureBoxFundo.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.REtangulo;
@@ -302,12 +302,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtacompanhamento);
+            this.Controls.Add(this.txtvalor_pago);
+            this.Controls.Add(this.txtdata_pagamento);
+            this.Controls.Add(this.txtpedido_id);
+            this.Controls.Add(this.txtforma_pagamento_id);
+            this.Controls.Add(this.txtid_pagamento);
             this.Controls.Add(this.dgvPagamentos);
             this.Controls.Add(this.btnAtualizarPagamentos);
             this.Controls.Add(this.btnPesquisarPagamentos);
@@ -346,12 +346,12 @@
         private System.Windows.Forms.Button btnPesquisarPagamentos;
         private System.Windows.Forms.Button btnDeletarPagamentos;
         private System.Windows.Forms.DataGridView dgvPagamentos;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtid_pagamento;
+        private System.Windows.Forms.TextBox txtforma_pagamento_id;
+        private System.Windows.Forms.TextBox txtpedido_id;
+        private System.Windows.Forms.TextBox txtdata_pagamento;
+        private System.Windows.Forms.TextBox txtvalor_pago;
+        private System.Windows.Forms.TextBox txtacompanhamento;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_pagamento;
         private System.Windows.Forms.DataGridViewTextBoxColumn pedido_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn forma_pagamento_id;

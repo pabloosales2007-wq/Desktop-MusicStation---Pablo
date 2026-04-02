@@ -37,7 +37,7 @@
             this.txpreco = new System.Windows.Forms.TextBox();
             this.txtnome = new System.Windows.Forms.TextBox();
             this.txtdescricao = new System.Windows.Forms.TextBox();
-            this.dgvClientes = new System.Windows.Forms.DataGridView();
+            this.dgvServicos = new System.Windows.Forms.DataGridView();
             this.id_servico = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,7 +47,7 @@
             this.btnPesquisarServicos = new System.Windows.Forms.Button();
             this.btnDeletarServicos = new System.Windows.Forms.Button();
             this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,20 +139,20 @@
             this.txtdescricao.Size = new System.Drawing.Size(100, 20);
             this.txtdescricao.TabIndex = 61;
             // 
-            // dgvClientes
+            // dgvServicos
             // 
-            this.dgvClientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvClientes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvServicos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dgvServicos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvServicos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvServicos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id_servico,
             this.nome,
             this.descricao,
             this.preco});
-            this.dgvClientes.Location = new System.Drawing.Point(63, 264);
-            this.dgvClientes.Name = "dgvClientes";
-            this.dgvClientes.Size = new System.Drawing.Size(443, 150);
-            this.dgvClientes.TabIndex = 62;
+            this.dgvServicos.Location = new System.Drawing.Point(63, 264);
+            this.dgvServicos.Name = "dgvServicos";
+            this.dgvServicos.Size = new System.Drawing.Size(443, 150);
+            this.dgvServicos.TabIndex = 62;
             // 
             // id_servico
             // 
@@ -250,7 +250,7 @@
             this.Controls.Add(this.btnPesquisarServicos);
             this.Controls.Add(this.btnDeletarServicos);
             this.Controls.Add(this.btnCadastrarServicos);
-            this.Controls.Add(this.dgvClientes);
+            this.Controls.Add(this.dgvServicos);
             this.Controls.Add(this.txtdescricao);
             this.Controls.Add(this.txtnome);
             this.Controls.Add(this.txpreco);
@@ -264,7 +264,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCatalogoServicos";
             this.Text = "FormCatalogoServicos";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -283,7 +283,7 @@
         private System.Windows.Forms.TextBox txpreco;
         private System.Windows.Forms.TextBox txtnome;
         private System.Windows.Forms.TextBox txtdescricao;
-        private System.Windows.Forms.DataGridView dgvClientes;
+        private System.Windows.Forms.DataGridView dgvServicos;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_servico;
         private System.Windows.Forms.DataGridViewTextBoxColumn nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn descricao;

@@ -36,25 +36,25 @@
             this.lblDataFim = new System.Windows.Forms.Label();
             this.lblValorTotal = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.dgvPedidos = new System.Windows.Forms.DataGridView();
-            this.btnCadastrarLocacoes = new System.Windows.Forms.Button();
-            this.btnAtualizarLocacoes = new System.Windows.Forms.Button();
-            this.btnPesquisarLocacoes = new System.Windows.Forms.Button();
-            this.btnDeletarLocacoes = new System.Windows.Forms.Button();
+            this.txtid_locacao = new System.Windows.Forms.TextBox();
+            this.txtcliente_id = new System.Windows.Forms.TextBox();
+            this.txtdata_inicio = new System.Windows.Forms.TextBox();
+            this.txtdata_fim = new System.Windows.Forms.TextBox();
+            this.txtvalor_total = new System.Windows.Forms.TextBox();
+            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.dgvLocacoes = new System.Windows.Forms.DataGridView();
             this.id_locacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cliente_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.data_inicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.data_fim = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valor_total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCadastrarLocacoes = new System.Windows.Forms.Button();
+            this.btnAtualizarLocacoes = new System.Windows.Forms.Button();
+            this.btnPesquisarLocacoes = new System.Windows.Forms.Button();
+            this.btnDeletarLocacoes = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPedidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLocacoes)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxFundo
@@ -151,64 +151,94 @@
             this.lblStatus.TabIndex = 61;
             this.lblStatus.Text = "Status:";
             // 
-            // textBox1
+            // txtid_locacao
             // 
-            this.textBox1.Location = new System.Drawing.Point(63, 98);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(71, 20);
-            this.textBox1.TabIndex = 62;
+            this.txtid_locacao.Location = new System.Drawing.Point(63, 98);
+            this.txtid_locacao.Name = "txtid_locacao";
+            this.txtid_locacao.Size = new System.Drawing.Size(71, 20);
+            this.txtid_locacao.TabIndex = 62;
             // 
-            // textBox2
+            // txtcliente_id
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(71, 20);
-            this.textBox2.TabIndex = 63;
+            this.txtcliente_id.Location = new System.Drawing.Point(160, 98);
+            this.txtcliente_id.Name = "txtcliente_id";
+            this.txtcliente_id.Size = new System.Drawing.Size(71, 20);
+            this.txtcliente_id.TabIndex = 63;
             // 
-            // textBox3
+            // txtdata_inicio
             // 
-            this.textBox3.Location = new System.Drawing.Point(259, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(71, 20);
-            this.textBox3.TabIndex = 64;
+            this.txtdata_inicio.Location = new System.Drawing.Point(259, 98);
+            this.txtdata_inicio.Name = "txtdata_inicio";
+            this.txtdata_inicio.Size = new System.Drawing.Size(71, 20);
+            this.txtdata_inicio.TabIndex = 64;
             // 
-            // textBox4
+            // txtdata_fim
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 140);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(71, 20);
-            this.textBox4.TabIndex = 65;
+            this.txtdata_fim.Location = new System.Drawing.Point(63, 140);
+            this.txtdata_fim.Name = "txtdata_fim";
+            this.txtdata_fim.Size = new System.Drawing.Size(71, 20);
+            this.txtdata_fim.TabIndex = 65;
             // 
-            // textBox5
+            // txtvalor_total
             // 
-            this.textBox5.Location = new System.Drawing.Point(160, 140);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(71, 20);
-            this.textBox5.TabIndex = 66;
+            this.txtvalor_total.Location = new System.Drawing.Point(160, 140);
+            this.txtvalor_total.Name = "txtvalor_total";
+            this.txtvalor_total.Size = new System.Drawing.Size(71, 20);
+            this.txtvalor_total.TabIndex = 66;
             // 
-            // textBox6
+            // txtStatus
             // 
-            this.textBox6.Location = new System.Drawing.Point(63, 185);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(168, 20);
-            this.textBox6.TabIndex = 67;
+            this.txtStatus.Location = new System.Drawing.Point(63, 185);
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(168, 20);
+            this.txtStatus.TabIndex = 67;
             // 
-            // dgvPedidos
+            // dgvLocacoes
             // 
-            this.dgvPedidos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvPedidos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgvPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPedidos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvLocacoes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dgvLocacoes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvLocacoes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLocacoes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id_locacao,
             this.cliente_id,
             this.data_inicio,
             this.data_fim,
             this.valor_total,
             this.status});
-            this.dgvPedidos.Location = new System.Drawing.Point(63, 264);
-            this.dgvPedidos.Name = "dgvPedidos";
-            this.dgvPedidos.Size = new System.Drawing.Size(542, 150);
-            this.dgvPedidos.TabIndex = 71;
+            this.dgvLocacoes.Location = new System.Drawing.Point(63, 264);
+            this.dgvLocacoes.Name = "dgvLocacoes";
+            this.dgvLocacoes.Size = new System.Drawing.Size(542, 150);
+            this.dgvLocacoes.TabIndex = 71;
+            // 
+            // id_locacao
+            // 
+            this.id_locacao.HeaderText = "id_locacao";
+            this.id_locacao.Name = "id_locacao";
+            // 
+            // cliente_id
+            // 
+            this.cliente_id.HeaderText = "cliente_id";
+            this.cliente_id.Name = "cliente_id";
+            // 
+            // data_inicio
+            // 
+            this.data_inicio.HeaderText = "Data Inicio";
+            this.data_inicio.Name = "data_inicio";
+            // 
+            // data_fim
+            // 
+            this.data_fim.HeaderText = "Data Fim";
+            this.data_fim.Name = "data_fim";
+            // 
+            // valor_total
+            // 
+            this.valor_total.HeaderText = "Valor Total";
+            this.valor_total.Name = "valor_total";
+            // 
+            // status
+            // 
+            this.status.HeaderText = "Status";
+            this.status.Name = "status";
             // 
             // btnCadastrarLocacoes
             // 
@@ -266,36 +296,6 @@
             this.btnDeletarLocacoes.Text = "Deletar";
             this.btnDeletarLocacoes.UseVisualStyleBackColor = false;
             // 
-            // id_locacao
-            // 
-            this.id_locacao.HeaderText = "id_locacao";
-            this.id_locacao.Name = "id_locacao";
-            // 
-            // cliente_id
-            // 
-            this.cliente_id.HeaderText = "cliente_id";
-            this.cliente_id.Name = "cliente_id";
-            // 
-            // data_inicio
-            // 
-            this.data_inicio.HeaderText = "Data Inicio";
-            this.data_inicio.Name = "data_inicio";
-            // 
-            // data_fim
-            // 
-            this.data_fim.HeaderText = "Data Fim";
-            this.data_fim.Name = "data_fim";
-            // 
-            // valor_total
-            // 
-            this.valor_total.HeaderText = "Valor Total";
-            this.valor_total.Name = "valor_total";
-            // 
-            // status
-            // 
-            this.status.HeaderText = "Status";
-            this.status.Name = "status";
-            // 
             // FormOperacionalLocacoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,13 +306,13 @@
             this.Controls.Add(this.btnPesquisarLocacoes);
             this.Controls.Add(this.btnDeletarLocacoes);
             this.Controls.Add(this.btnCadastrarLocacoes);
-            this.Controls.Add(this.dgvPedidos);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dgvLocacoes);
+            this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.txtvalor_total);
+            this.Controls.Add(this.txtdata_fim);
+            this.Controls.Add(this.txtdata_inicio);
+            this.Controls.Add(this.txtcliente_id);
+            this.Controls.Add(this.txtid_locacao);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.lblValorTotal);
             this.Controls.Add(this.lblDataFim);
@@ -325,7 +325,7 @@
             this.Name = "FormOperacionalLocacoes";
             this.Text = "FormOperacionalLocacoes";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPedidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLocacoes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,13 +341,13 @@
         private System.Windows.Forms.Label lblDataFim;
         private System.Windows.Forms.Label lblValorTotal;
         private System.Windows.Forms.Label lblStatus;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.DataGridView dgvPedidos;
+        private System.Windows.Forms.TextBox txtid_locacao;
+        private System.Windows.Forms.TextBox txtcliente_id;
+        private System.Windows.Forms.TextBox txtdata_inicio;
+        private System.Windows.Forms.TextBox txtdata_fim;
+        private System.Windows.Forms.TextBox txtvalor_total;
+        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.DataGridView dgvLocacoes;
         private System.Windows.Forms.Button btnCadastrarLocacoes;
         private System.Windows.Forms.Button btnAtualizarLocacoes;
         private System.Windows.Forms.Button btnPesquisarLocacoes;

@@ -30,14 +30,14 @@
         {
             this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
             this.lblProfissionais = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtid_empresa = new System.Windows.Forms.TextBox();
+            this.txtusuario_id = new System.Windows.Forms.TextBox();
+            this.nome_fantasia = new System.Windows.Forms.TextBox();
+            this.txttelefone = new System.Windows.Forms.TextBox();
+            this.txtcnpj = new System.Windows.Forms.TextBox();
+            this.txtrazao_social = new System.Windows.Forms.TextBox();
+            this.txtemail = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,7 +51,10 @@
             this.btnPesquisarAdministradores = new System.Windows.Forms.Button();
             this.btnDeletarAdministradores = new System.Windows.Forms.Button();
             this.dgvEmpresa = new System.Windows.Forms.DataGridView();
+            this.txtDataCadastro = new System.Windows.Forms.TextBox();
+            this.lblDataCadastro = new System.Windows.Forms.Label();
             this.Id_empresa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.data_cadastro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usuario_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Razão_Social = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,61 +88,61 @@
             this.lblProfissionais.TabIndex = 26;
             this.lblProfissionais.Text = "Empresa";
             // 
-            // textBox1
+            // txtid_empresa
             // 
-            this.textBox1.Location = new System.Drawing.Point(63, 98);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 27;
+            this.txtid_empresa.Location = new System.Drawing.Point(63, 98);
+            this.txtid_empresa.Name = "txtid_empresa";
+            this.txtid_empresa.Size = new System.Drawing.Size(100, 20);
+            this.txtid_empresa.TabIndex = 27;
             // 
-            // textBox2
+            // txtusuario_id
             // 
-            this.textBox2.Location = new System.Drawing.Point(180, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 28;
+            this.txtusuario_id.Location = new System.Drawing.Point(180, 98);
+            this.txtusuario_id.Name = "txtusuario_id";
+            this.txtusuario_id.Size = new System.Drawing.Size(100, 20);
+            this.txtusuario_id.TabIndex = 28;
             // 
-            // textBox3
+            // nome_fantasia
             // 
-            this.textBox3.Location = new System.Drawing.Point(296, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 29;
+            this.nome_fantasia.Location = new System.Drawing.Point(296, 98);
+            this.nome_fantasia.Name = "nome_fantasia";
+            this.nome_fantasia.Size = new System.Drawing.Size(100, 20);
+            this.nome_fantasia.TabIndex = 29;
             // 
-            // textBox4
+            // txttelefone
             // 
-            this.textBox4.Location = new System.Drawing.Point(296, 178);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 32;
+            this.txttelefone.Location = new System.Drawing.Point(296, 178);
+            this.txttelefone.Name = "txttelefone";
+            this.txttelefone.Size = new System.Drawing.Size(100, 20);
+            this.txttelefone.TabIndex = 32;
             // 
-            // textBox5
+            // txtcnpj
             // 
-            this.textBox5.Location = new System.Drawing.Point(180, 138);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(216, 20);
-            this.textBox5.TabIndex = 31;
+            this.txtcnpj.Location = new System.Drawing.Point(180, 138);
+            this.txtcnpj.Name = "txtcnpj";
+            this.txtcnpj.Size = new System.Drawing.Size(216, 20);
+            this.txtcnpj.TabIndex = 31;
             // 
-            // textBox6
+            // txtrazao_social
             // 
-            this.textBox6.Location = new System.Drawing.Point(63, 138);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 30;
+            this.txtrazao_social.Location = new System.Drawing.Point(63, 138);
+            this.txtrazao_social.Name = "txtrazao_social";
+            this.txtrazao_social.Size = new System.Drawing.Size(100, 20);
+            this.txtrazao_social.TabIndex = 30;
             // 
-            // textBox7
+            // txtemail
             // 
-            this.textBox7.Location = new System.Drawing.Point(63, 178);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(217, 20);
-            this.textBox7.TabIndex = 33;
+            this.txtemail.Location = new System.Drawing.Point(63, 178);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(217, 20);
+            this.txtemail.TabIndex = 33;
             // 
-            // textBox8
+            // txtDescricao
             // 
-            this.textBox8.Location = new System.Drawing.Point(63, 219);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(217, 20);
-            this.textBox8.TabIndex = 34;
+            this.txtDescricao.Location = new System.Drawing.Point(63, 219);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(159, 20);
+            this.txtDescricao.TabIndex = 34;
             // 
             // label1
             // 
@@ -300,6 +303,7 @@
             this.dgvEmpresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEmpresa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id_empresa,
+            this.data_cadastro,
             this.usuario_id,
             this.Nome,
             this.Razão_Social,
@@ -312,10 +316,34 @@
             this.dgvEmpresa.Size = new System.Drawing.Size(543, 150);
             this.dgvEmpresa.TabIndex = 76;
             // 
+            // txtDataCadastro
+            // 
+            this.txtDataCadastro.Location = new System.Drawing.Point(237, 219);
+            this.txtDataCadastro.Name = "txtDataCadastro";
+            this.txtDataCadastro.Size = new System.Drawing.Size(159, 20);
+            this.txtDataCadastro.TabIndex = 77;
+            // 
+            // lblDataCadastro
+            // 
+            this.lblDataCadastro.AutoSize = true;
+            this.lblDataCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.lblDataCadastro.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblDataCadastro.ForeColor = System.Drawing.Color.White;
+            this.lblDataCadastro.Location = new System.Drawing.Point(234, 203);
+            this.lblDataCadastro.Name = "lblDataCadastro";
+            this.lblDataCadastro.Size = new System.Drawing.Size(100, 16);
+            this.lblDataCadastro.TabIndex = 78;
+            this.lblDataCadastro.Text = "Data Cadastro:";
+            // 
             // Id_empresa
             // 
             this.Id_empresa.HeaderText = "Id_empresa";
             this.Id_empresa.Name = "Id_empresa";
+            // 
+            // data_cadastro
+            // 
+            this.data_cadastro.HeaderText = "Data Cadastro";
+            this.data_cadastro.Name = "data_cadastro";
             // 
             // usuario_id
             // 
@@ -358,6 +386,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
+            this.Controls.Add(this.lblDataCadastro);
+            this.Controls.Add(this.txtDataCadastro);
             this.Controls.Add(this.dgvEmpresa);
             this.Controls.Add(this.btnAtualizarAdministradores);
             this.Controls.Add(this.btnPesquisarAdministradores);
@@ -371,14 +401,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDescricao);
+            this.Controls.Add(this.txtemail);
+            this.Controls.Add(this.txttelefone);
+            this.Controls.Add(this.txtcnpj);
+            this.Controls.Add(this.txtrazao_social);
+            this.Controls.Add(this.nome_fantasia);
+            this.Controls.Add(this.txtusuario_id);
+            this.Controls.Add(this.txtid_empresa);
             this.Controls.Add(this.lblProfissionais);
             this.Controls.Add(this.pictureBoxFundo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -395,14 +425,14 @@
 
         private System.Windows.Forms.PictureBox pictureBoxFundo;
         private System.Windows.Forms.Label lblProfissionais;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtid_empresa;
+        private System.Windows.Forms.TextBox txtusuario_id;
+        private System.Windows.Forms.TextBox nome_fantasia;
+        private System.Windows.Forms.TextBox txttelefone;
+        private System.Windows.Forms.TextBox txtcnpj;
+        private System.Windows.Forms.TextBox txtrazao_social;
+        private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -417,6 +447,7 @@
         private System.Windows.Forms.Button btnDeletarAdministradores;
         private System.Windows.Forms.DataGridView dgvEmpresa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id_empresa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn data_cadastro;
         private System.Windows.Forms.DataGridViewTextBoxColumn usuario_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Razão_Social;
@@ -424,5 +455,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
         private System.Windows.Forms.DataGridViewTextBoxColumn Email;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descricao;
+        private System.Windows.Forms.TextBox txtDataCadastro;
+        private System.Windows.Forms.Label lblDataCadastro;
     }
 }

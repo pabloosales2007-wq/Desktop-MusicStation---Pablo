@@ -36,17 +36,17 @@
             this.lblProfissional_id = new System.Windows.Forms.Label();
             this.lblValorServico = new System.Windows.Forms.Label();
             this.lblObservacao = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtid_item = new System.Windows.Forms.TextBox();
+            this.txtpedido_id = new System.Windows.Forms.TextBox();
+            this.txtservico_id = new System.Windows.Forms.TextBox();
+            this.txtprofissional_id = new System.Windows.Forms.TextBox();
+            this.txtValorServico = new System.Windows.Forms.TextBox();
+            this.txtObservacao = new System.Windows.Forms.TextBox();
             this.btnCadastrarServicosPedidos = new System.Windows.Forms.Button();
             this.btnAtualizarServicosPedidos = new System.Windows.Forms.Button();
             this.btnPesquisarServicosPedidos = new System.Windows.Forms.Button();
             this.btnDeletarServicosPedidos = new System.Windows.Forms.Button();
-            this.dgvPedidos = new System.Windows.Forms.DataGridView();
+            this.dgvServicosPedidos = new System.Windows.Forms.DataGridView();
             this.id_item = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pedido_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.servico_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,7 +54,7 @@
             this.valor_servico = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPedidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicosPedidos)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxFundo
@@ -152,47 +152,47 @@
             this.lblObservacao.TabIndex = 61;
             this.lblObservacao.Text = "Observação:";
             // 
-            // textBox1
+            // txtid_item
             // 
-            this.textBox1.Location = new System.Drawing.Point(63, 99);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(55, 20);
-            this.textBox1.TabIndex = 62;
+            this.txtid_item.Location = new System.Drawing.Point(63, 99);
+            this.txtid_item.Name = "txtid_item";
+            this.txtid_item.Size = new System.Drawing.Size(55, 20);
+            this.txtid_item.TabIndex = 62;
             // 
-            // textBox2
+            // txtpedido_id
             // 
-            this.textBox2.Location = new System.Drawing.Point(155, 95);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(71, 20);
-            this.textBox2.TabIndex = 63;
+            this.txtpedido_id.Location = new System.Drawing.Point(155, 95);
+            this.txtpedido_id.Name = "txtpedido_id";
+            this.txtpedido_id.Size = new System.Drawing.Size(71, 20);
+            this.txtpedido_id.TabIndex = 63;
             // 
-            // textBox3
+            // txtservico_id
             // 
-            this.textBox3.Location = new System.Drawing.Point(253, 95);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(71, 20);
-            this.textBox3.TabIndex = 64;
+            this.txtservico_id.Location = new System.Drawing.Point(253, 95);
+            this.txtservico_id.Name = "txtservico_id";
+            this.txtservico_id.Size = new System.Drawing.Size(71, 20);
+            this.txtservico_id.TabIndex = 64;
             // 
-            // textBox4
+            // txtprofissional_id
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 142);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(101, 20);
-            this.textBox4.TabIndex = 65;
+            this.txtprofissional_id.Location = new System.Drawing.Point(63, 142);
+            this.txtprofissional_id.Name = "txtprofissional_id";
+            this.txtprofissional_id.Size = new System.Drawing.Size(101, 20);
+            this.txtprofissional_id.TabIndex = 65;
             // 
-            // textBox5
+            // txtValorServico
             // 
-            this.textBox5.Location = new System.Drawing.Point(187, 142);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(93, 20);
-            this.textBox5.TabIndex = 66;
+            this.txtValorServico.Location = new System.Drawing.Point(187, 142);
+            this.txtValorServico.Name = "txtValorServico";
+            this.txtValorServico.Size = new System.Drawing.Size(93, 20);
+            this.txtValorServico.TabIndex = 66;
             // 
-            // textBox6
+            // txtObservacao
             // 
-            this.textBox6.Location = new System.Drawing.Point(63, 184);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(83, 20);
-            this.textBox6.TabIndex = 67;
+            this.txtObservacao.Location = new System.Drawing.Point(63, 184);
+            this.txtObservacao.Name = "txtObservacao";
+            this.txtObservacao.Size = new System.Drawing.Size(83, 20);
+            this.txtObservacao.TabIndex = 67;
             // 
             // btnCadastrarServicosPedidos
             // 
@@ -214,7 +214,7 @@
             this.btnAtualizarServicosPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAtualizarServicosPedidos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarServicosPedidos.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAtualizarServicosPedidos.Location = new System.Drawing.Point(534, 135);
+            this.btnAtualizarServicosPedidos.Location = new System.Drawing.Point(534, 133);
             this.btnAtualizarServicosPedidos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAtualizarServicosPedidos.Name = "btnAtualizarServicosPedidos";
             this.btnAtualizarServicosPedidos.Size = new System.Drawing.Size(88, 31);
@@ -250,22 +250,22 @@
             this.btnDeletarServicosPedidos.Text = "Deletar";
             this.btnDeletarServicosPedidos.UseVisualStyleBackColor = false;
             // 
-            // dgvPedidos
+            // dgvServicosPedidos
             // 
-            this.dgvPedidos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvPedidos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgvPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPedidos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvServicosPedidos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dgvServicosPedidos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvServicosPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvServicosPedidos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id_item,
             this.pedido_id,
             this.servico_id,
             this.profissional_id,
             this.valor_servico,
             this.observacao});
-            this.dgvPedidos.Location = new System.Drawing.Point(63, 264);
-            this.dgvPedidos.Name = "dgvPedidos";
-            this.dgvPedidos.Size = new System.Drawing.Size(540, 150);
-            this.dgvPedidos.TabIndex = 73;
+            this.dgvServicosPedidos.Location = new System.Drawing.Point(63, 264);
+            this.dgvServicosPedidos.Name = "dgvServicosPedidos";
+            this.dgvServicosPedidos.Size = new System.Drawing.Size(540, 150);
+            this.dgvServicosPedidos.TabIndex = 73;
             // 
             // id_item
             // 
@@ -303,17 +303,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
-            this.Controls.Add(this.dgvPedidos);
+            this.Controls.Add(this.dgvServicosPedidos);
             this.Controls.Add(this.btnAtualizarServicosPedidos);
             this.Controls.Add(this.btnPesquisarServicosPedidos);
             this.Controls.Add(this.btnDeletarServicosPedidos);
             this.Controls.Add(this.btnCadastrarServicosPedidos);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtObservacao);
+            this.Controls.Add(this.txtValorServico);
+            this.Controls.Add(this.txtprofissional_id);
+            this.Controls.Add(this.txtservico_id);
+            this.Controls.Add(this.txtpedido_id);
+            this.Controls.Add(this.txtid_item);
             this.Controls.Add(this.lblObservacao);
             this.Controls.Add(this.lblValorServico);
             this.Controls.Add(this.lblProfissional_id);
@@ -326,7 +326,7 @@
             this.Name = "FormOperacionalServicoPedido";
             this.Text = "FormOperacionalServicoPedido";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPedidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicosPedidos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -342,17 +342,17 @@
         private System.Windows.Forms.Label lblProfissional_id;
         private System.Windows.Forms.Label lblValorServico;
         private System.Windows.Forms.Label lblObservacao;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtid_item;
+        private System.Windows.Forms.TextBox txtpedido_id;
+        private System.Windows.Forms.TextBox txtservico_id;
+        private System.Windows.Forms.TextBox txtprofissional_id;
+        private System.Windows.Forms.TextBox txtValorServico;
+        private System.Windows.Forms.TextBox txtObservacao;
         private System.Windows.Forms.Button btnCadastrarServicosPedidos;
         private System.Windows.Forms.Button btnAtualizarServicosPedidos;
         private System.Windows.Forms.Button btnPesquisarServicosPedidos;
         private System.Windows.Forms.Button btnDeletarServicosPedidos;
-        private System.Windows.Forms.DataGridView dgvPedidos;
+        private System.Windows.Forms.DataGridView dgvServicosPedidos;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_item;
         private System.Windows.Forms.DataGridViewTextBoxColumn pedido_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn servico_id;

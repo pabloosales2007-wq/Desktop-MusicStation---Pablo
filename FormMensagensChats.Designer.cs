@@ -41,7 +41,7 @@
             this.txtdata_criacao = new System.Windows.Forms.TextBox();
             this.txtusuario1_id = new System.Windows.Forms.TextBox();
             this.txtusuario2_id = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtdatacriacao = new System.Windows.Forms.TextBox();
             this.dgvChats = new System.Windows.Forms.DataGridView();
             this.id_chat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usuario1_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -198,12 +198,12 @@
             this.txtusuario2_id.Size = new System.Drawing.Size(84, 20);
             this.txtusuario2_id.TabIndex = 82;
             // 
-            // textBox4
+            // txtdatacriacao
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 133);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(84, 20);
-            this.textBox4.TabIndex = 83;
+            this.txtdatacriacao.Location = new System.Drawing.Point(63, 133);
+            this.txtdatacriacao.Name = "txtdatacriacao";
+            this.txtdatacriacao.Size = new System.Drawing.Size(84, 20);
+            this.txtdatacriacao.TabIndex = 83;
             // 
             // dgvChats
             // 
@@ -247,7 +247,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
             this.Controls.Add(this.dgvChats);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtdatacriacao);
             this.Controls.Add(this.txtusuario2_id);
             this.Controls.Add(this.txtusuario1_id);
             this.Controls.Add(this.txtdata_criacao);
@@ -286,7 +286,7 @@
         private System.Windows.Forms.TextBox txtdata_criacao;
         private System.Windows.Forms.TextBox txtusuario1_id;
         private System.Windows.Forms.TextBox txtusuario2_id;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtdatacriacao;
         private System.Windows.Forms.DataGridView dgvChats;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_chat;
         private System.Windows.Forms.DataGridViewTextBoxColumn usuario1_id;

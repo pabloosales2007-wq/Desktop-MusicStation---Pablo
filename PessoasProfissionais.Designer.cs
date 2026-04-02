@@ -38,7 +38,7 @@
             this.lblidUsuario = new System.Windows.Forms.Label();
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtUsuario_id = new System.Windows.Forms.TextBox();
-            this.txtidUsuario = new System.Windows.Forms.TextBox();
+            this.txtid_profissionais = new System.Windows.Forms.TextBox();
             this.btnCadastrarProfissionais = new System.Windows.Forms.Button();
             this.btnAtualizarProfissionais = new System.Windows.Forms.Button();
             this.btnPesquisarProfissionais = new System.Windows.Forms.Button();
@@ -143,14 +143,14 @@
             this.txtUsuario_id.Size = new System.Drawing.Size(186, 20);
             this.txtUsuario_id.TabIndex = 32;
             // 
-            // txtidUsuario
+            // txtid_profissionais
             // 
-            this.txtidUsuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtidUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtidUsuario.Location = new System.Drawing.Point(62, 95);
-            this.txtidUsuario.Name = "txtidUsuario";
-            this.txtidUsuario.Size = new System.Drawing.Size(64, 20);
-            this.txtidUsuario.TabIndex = 31;
+            this.txtid_profissionais.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtid_profissionais.ForeColor = System.Drawing.Color.Black;
+            this.txtid_profissionais.Location = new System.Drawing.Point(62, 95);
+            this.txtid_profissionais.Name = "txtid_profissionais";
+            this.txtid_profissionais.Size = new System.Drawing.Size(64, 20);
+            this.txtid_profissionais.TabIndex = 31;
             // 
             // btnCadastrarProfissionais
             // 
@@ -232,7 +232,7 @@
             this.Controls.Add(this.lblidUsuario);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtUsuario_id);
-            this.Controls.Add(this.txtidUsuario);
+            this.Controls.Add(this.txtid_profissionais);
             this.Controls.Add(this.lblidProfissionais);
             this.Controls.Add(this.lblProfissionais);
             this.Controls.Add(this.dgvProfissionais);
@@ -260,7 +260,7 @@
         private System.Windows.Forms.Label lblidUsuario;
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtUsuario_id;
-        private System.Windows.Forms.TextBox txtidUsuario;
+        private System.Windows.Forms.TextBox txtid_profissionais;
         private System.Windows.Forms.Button btnCadastrarProfissionais;
         private System.Windows.Forms.Button btnAtualizarProfissionais;
         private System.Windows.Forms.Button btnPesquisarProfissionais;

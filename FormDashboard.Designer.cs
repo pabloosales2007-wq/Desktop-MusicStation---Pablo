@@ -33,37 +33,37 @@
             this.pictureBoxLogout = new System.Windows.Forms.PictureBox();
             this.pboxLogo = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pboGrafico = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pboServicoMaisProcurado = new System.Windows.Forms.PictureBox();
+            this.dgvServicos = new System.Windows.Forms.DataGridView();
+            this.panelClientes = new System.Windows.Forms.Panel();
             this.lblClientes = new System.Windows.Forms.Label();
             this.lblNovosClientes = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pboCLIENTES = new System.Windows.Forms.PictureBox();
+            this.panelReceita = new System.Windows.Forms.Panel();
             this.lblReceita = new System.Windows.Forms.Label();
             this.lblReceitaTotal = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pboDinheiro = new System.Windows.Forms.PictureBox();
+            this.panelEmAndamento = new System.Windows.Forms.Panel();
             this.lblServicosEmAndamento = new System.Windows.Forms.Label();
             this.lblServicoAndamento = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pboCHECK = new System.Windows.Forms.PictureBox();
             this.panelSide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboGrafico)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboServicoMaisProcurado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicos)).BeginInit();
+            this.panelClientes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCLIENTES)).BeginInit();
+            this.panelReceita.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboDinheiro)).BeginInit();
+            this.panelEmAndamento.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCHECK)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSide
@@ -113,59 +113,59 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.panel4.Controls.Add(this.pictureBox4);
+            this.panel4.Controls.Add(this.pboGrafico);
             this.panel4.Location = new System.Drawing.Point(206, 132);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(326, 176);
             this.panel4.TabIndex = 2;
             // 
-            // pictureBox4
+            // pboGrafico
             // 
-            this.pictureBox4.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.grafico_ficticio;
-            this.pictureBox4.Location = new System.Drawing.Point(6, 4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(317, 169);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.pboGrafico.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.grafico_ficticio;
+            this.pboGrafico.Location = new System.Drawing.Point(6, 4);
+            this.pboGrafico.Name = "pboGrafico";
+            this.pboGrafico.Size = new System.Drawing.Size(317, 169);
+            this.pboGrafico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboGrafico.TabIndex = 0;
+            this.pboGrafico.TabStop = false;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.panel5.Controls.Add(this.pictureBox5);
+            this.panel5.Controls.Add(this.pboServicoMaisProcurado);
             this.panel5.Location = new System.Drawing.Point(572, 132);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(284, 176);
             this.panel5.TabIndex = 3;
             // 
-            // pictureBox5
+            // pboServicoMaisProcurado
             // 
-            this.pictureBox5.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.ServicoFicticio;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(277, 170);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.pboServicoMaisProcurado.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.ServicoFicticio;
+            this.pboServicoMaisProcurado.Location = new System.Drawing.Point(3, 3);
+            this.pboServicoMaisProcurado.Name = "pboServicoMaisProcurado";
+            this.pboServicoMaisProcurado.Size = new System.Drawing.Size(277, 170);
+            this.pboServicoMaisProcurado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboServicoMaisProcurado.TabIndex = 1;
+            this.pboServicoMaisProcurado.TabStop = false;
             // 
-            // dataGridView1
+            // dgvServicos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(207, 329);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(649, 150);
-            this.dataGridView1.TabIndex = 4;
+            this.dgvServicos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvServicos.Location = new System.Drawing.Point(207, 329);
+            this.dgvServicos.Name = "dgvServicos";
+            this.dgvServicos.Size = new System.Drawing.Size(649, 150);
+            this.dgvServicos.TabIndex = 4;
             // 
-            // panel3
+            // panelClientes
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.panel3.Controls.Add(this.lblClientes);
-            this.panel3.Controls.Add(this.lblNovosClientes);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(666, 35);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(190, 91);
-            this.panel3.TabIndex = 2;
+            this.panelClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.panelClientes.Controls.Add(this.lblClientes);
+            this.panelClientes.Controls.Add(this.lblNovosClientes);
+            this.panelClientes.Controls.Add(this.pboCLIENTES);
+            this.panelClientes.Location = new System.Drawing.Point(666, 35);
+            this.panelClientes.Name = "panelClientes";
+            this.panelClientes.Size = new System.Drawing.Size(190, 91);
+            this.panelClientes.TabIndex = 2;
             // 
             // lblClientes
             // 
@@ -189,26 +189,26 @@
             this.lblNovosClientes.TabIndex = 5;
             this.lblNovosClientes.Text = "Novos Clientes";
             // 
-            // pictureBox3
+            // pboCLIENTES
             // 
-            this.pictureBox3.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.pessoas;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(71, 71);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
+            this.pboCLIENTES.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.pessoas;
+            this.pboCLIENTES.Location = new System.Drawing.Point(0, 12);
+            this.pboCLIENTES.Name = "pboCLIENTES";
+            this.pboCLIENTES.Size = new System.Drawing.Size(71, 71);
+            this.pboCLIENTES.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCLIENTES.TabIndex = 4;
+            this.pboCLIENTES.TabStop = false;
             // 
-            // panel1
+            // panelReceita
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.panel1.Controls.Add(this.lblReceita);
-            this.panel1.Controls.Add(this.lblReceitaTotal);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(209, 35);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(190, 91);
-            this.panel1.TabIndex = 3;
+            this.panelReceita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.panelReceita.Controls.Add(this.lblReceita);
+            this.panelReceita.Controls.Add(this.lblReceitaTotal);
+            this.panelReceita.Controls.Add(this.pboDinheiro);
+            this.panelReceita.Location = new System.Drawing.Point(209, 35);
+            this.panelReceita.Name = "panelReceita";
+            this.panelReceita.Size = new System.Drawing.Size(190, 91);
+            this.panelReceita.TabIndex = 3;
             // 
             // lblReceita
             // 
@@ -232,26 +232,26 @@
             this.lblReceitaTotal.TabIndex = 3;
             this.lblReceitaTotal.Text = "Receita Total:";
             // 
-            // pictureBox1
+            // pboDinheiro
             // 
-            this.pictureBox1.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.money;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 71);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pboDinheiro.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.money;
+            this.pboDinheiro.Location = new System.Drawing.Point(3, 12);
+            this.pboDinheiro.Name = "pboDinheiro";
+            this.pboDinheiro.Size = new System.Drawing.Size(71, 71);
+            this.pboDinheiro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboDinheiro.TabIndex = 2;
+            this.pboDinheiro.TabStop = false;
             // 
-            // panel2
+            // panelEmAndamento
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.panel2.Controls.Add(this.lblServicosEmAndamento);
-            this.panel2.Controls.Add(this.lblServicoAndamento);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(435, 35);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(190, 91);
-            this.panel2.TabIndex = 3;
+            this.panelEmAndamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.panelEmAndamento.Controls.Add(this.lblServicosEmAndamento);
+            this.panelEmAndamento.Controls.Add(this.lblServicoAndamento);
+            this.panelEmAndamento.Controls.Add(this.pboCHECK);
+            this.panelEmAndamento.Location = new System.Drawing.Point(435, 35);
+            this.panelEmAndamento.Name = "panelEmAndamento";
+            this.panelEmAndamento.Size = new System.Drawing.Size(190, 91);
+            this.panelEmAndamento.TabIndex = 3;
             // 
             // lblServicosEmAndamento
             // 
@@ -275,15 +275,15 @@
             this.lblServicoAndamento.TabIndex = 5;
             this.lblServicoAndamento.Text = "SERVIÇOS \r\nEM \r\nANDAMENTO";
             // 
-            // pictureBox2
+            // pboCHECK
             // 
-            this.pictureBox2.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.clipboard;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(71, 71);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.pboCHECK.Image = global::Telas_Desktop_MusicStation___Pablo.Properties.Resources.clipboard;
+            this.pboCHECK.Location = new System.Drawing.Point(0, 12);
+            this.pboCHECK.Name = "pboCHECK";
+            this.pboCHECK.Size = new System.Drawing.Size(71, 71);
+            this.pboCHECK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCHECK.TabIndex = 3;
+            this.pboCHECK.TabStop = false;
             // 
             // FormDashboard
             // 
@@ -291,10 +291,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(868, 492);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panelEmAndamento);
+            this.Controls.Add(this.panelReceita);
+            this.Controls.Add(this.panelClientes);
+            this.Controls.Add(this.dgvServicos);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panelSide);
@@ -305,19 +305,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).EndInit();
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboGrafico)).EndInit();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboServicoMaisProcurado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvServicos)).EndInit();
+            this.panelClientes.ResumeLayout(false);
+            this.panelClientes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCLIENTES)).EndInit();
+            this.panelReceita.ResumeLayout(false);
+            this.panelReceita.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboDinheiro)).EndInit();
+            this.panelEmAndamento.ResumeLayout(false);
+            this.panelEmAndamento.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCHECK)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -330,20 +330,20 @@
         private System.Windows.Forms.PictureBox pictureBoxMenu;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.DataGridView dgvServicos;
+        private System.Windows.Forms.Panel panelClientes;
+        private System.Windows.Forms.Panel panelReceita;
+        private System.Windows.Forms.Panel panelEmAndamento;
+        private System.Windows.Forms.PictureBox pboDinheiro;
+        private System.Windows.Forms.PictureBox pboCLIENTES;
         private System.Windows.Forms.Label lblReceita;
         private System.Windows.Forms.Label lblReceitaTotal;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pboCHECK;
+        private System.Windows.Forms.PictureBox pboGrafico;
         private System.Windows.Forms.Label lblClientes;
         private System.Windows.Forms.Label lblNovosClientes;
         private System.Windows.Forms.Label lblServicosEmAndamento;
         private System.Windows.Forms.Label lblServicoAndamento;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pboServicoMaisProcurado;
     }
 }

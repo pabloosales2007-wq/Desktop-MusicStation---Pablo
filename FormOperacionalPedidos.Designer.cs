@@ -36,7 +36,7 @@
             this.lblAcompanhamento = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtdata_pedido = new System.Windows.Forms.TextBox();
             this.txtAcompanhamento = new System.Windows.Forms.TextBox();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.btnCadastrarPedidos = new System.Windows.Forms.Button();
@@ -140,18 +140,18 @@
             this.textBox2.Size = new System.Drawing.Size(71, 20);
             this.textBox2.TabIndex = 61;
             // 
-            // textBox3
+            // txtdata_pedido
             // 
-            this.textBox3.Location = new System.Drawing.Point(281, 94);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(71, 20);
-            this.textBox3.TabIndex = 62;
+            this.txtdata_pedido.Location = new System.Drawing.Point(281, 94);
+            this.txtdata_pedido.Name = "txtdata_pedido";
+            this.txtdata_pedido.Size = new System.Drawing.Size(71, 20);
+            this.txtdata_pedido.TabIndex = 62;
             // 
             // txtAcompanhamento
             // 
             this.txtAcompanhamento.Location = new System.Drawing.Point(63, 141);
             this.txtAcompanhamento.Name = "txtAcompanhamento";
-            this.txtAcompanhamento.Size = new System.Drawing.Size(71, 20);
+            this.txtAcompanhamento.Size = new System.Drawing.Size(124, 20);
             this.txtAcompanhamento.TabIndex = 63;
             // 
             // txtTotal
@@ -195,7 +195,7 @@
             this.btnPesquisarPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPesquisarPedidos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisarPedidos.ForeColor = System.Drawing.Color.Black;
-            this.btnPesquisarPedidos.Location = new System.Drawing.Point(534, 94);
+            this.btnPesquisarPedidos.Location = new System.Drawing.Point(534, 95);
             this.btnPesquisarPedidos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnPesquisarPedidos.Name = "btnPesquisarPedidos";
             this.btnPesquisarPedidos.Size = new System.Drawing.Size(88, 33);
@@ -281,7 +281,7 @@
             this.Controls.Add(this.btnCadastrarPedidos);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtAcompanhamento);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtdata_pedido);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lblAcompanhamento);
@@ -312,7 +312,7 @@
         private System.Windows.Forms.Label lblAcompanhamento;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtdata_pedido;
         private System.Windows.Forms.TextBox txtAcompanhamento;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Button btnCadastrarPedidos;

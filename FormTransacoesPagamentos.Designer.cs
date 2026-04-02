@@ -39,11 +39,11 @@
             this.lblacompanhamento = new System.Windows.Forms.Label();
             this.lblcodigo_externo = new System.Windows.Forms.Label();
             this.lbldata_transacao = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtid_transacao = new System.Windows.Forms.TextBox();
+            this.txtpagamento_id = new System.Windows.Forms.TextBox();
+            this.txtacompanhamento = new System.Windows.Forms.TextBox();
+            this.txtcodigo_externo = new System.Windows.Forms.TextBox();
+            this.txtdata_transacao = new System.Windows.Forms.TextBox();
             this.dgvTransacoesPagamentos = new System.Windows.Forms.DataGridView();
             this.id_transacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pagamento_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -192,40 +192,40 @@
             this.lbldata_transacao.TabIndex = 80;
             this.lbldata_transacao.Text = "Data Transação:";
             // 
-            // textBox1
+            // txtid_transacao
             // 
-            this.textBox1.Location = new System.Drawing.Point(63, 95);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(99, 20);
-            this.textBox1.TabIndex = 81;
+            this.txtid_transacao.Location = new System.Drawing.Point(63, 95);
+            this.txtid_transacao.Name = "txtid_transacao";
+            this.txtid_transacao.Size = new System.Drawing.Size(99, 20);
+            this.txtid_transacao.TabIndex = 81;
             // 
-            // textBox2
+            // txtpagamento_id
             // 
-            this.textBox2.Location = new System.Drawing.Point(168, 95);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(99, 20);
-            this.textBox2.TabIndex = 82;
+            this.txtpagamento_id.Location = new System.Drawing.Point(168, 95);
+            this.txtpagamento_id.Name = "txtpagamento_id";
+            this.txtpagamento_id.Size = new System.Drawing.Size(99, 20);
+            this.txtpagamento_id.TabIndex = 82;
             // 
-            // textBox3
+            // txtacompanhamento
             // 
-            this.textBox3.Location = new System.Drawing.Point(273, 95);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(124, 20);
-            this.textBox3.TabIndex = 83;
+            this.txtacompanhamento.Location = new System.Drawing.Point(273, 95);
+            this.txtacompanhamento.Name = "txtacompanhamento";
+            this.txtacompanhamento.Size = new System.Drawing.Size(124, 20);
+            this.txtacompanhamento.TabIndex = 83;
             // 
-            // textBox4
+            // txtcodigo_externo
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 133);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(106, 20);
-            this.textBox4.TabIndex = 84;
+            this.txtcodigo_externo.Location = new System.Drawing.Point(63, 133);
+            this.txtcodigo_externo.Name = "txtcodigo_externo";
+            this.txtcodigo_externo.Size = new System.Drawing.Size(106, 20);
+            this.txtcodigo_externo.TabIndex = 84;
             // 
-            // textBox5
+            // txtdata_transacao
             // 
-            this.textBox5.Location = new System.Drawing.Point(175, 133);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(99, 20);
-            this.textBox5.TabIndex = 85;
+            this.txtdata_transacao.Location = new System.Drawing.Point(175, 133);
+            this.txtdata_transacao.Name = "txtdata_transacao";
+            this.txtdata_transacao.Size = new System.Drawing.Size(99, 20);
+            this.txtdata_transacao.TabIndex = 85;
             // 
             // dgvTransacoesPagamentos
             // 
@@ -275,11 +275,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
             this.Controls.Add(this.dgvTransacoesPagamentos);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtdata_transacao);
+            this.Controls.Add(this.txtcodigo_externo);
+            this.Controls.Add(this.txtacompanhamento);
+            this.Controls.Add(this.txtpagamento_id);
+            this.Controls.Add(this.txtid_transacao);
             this.Controls.Add(this.lbldata_transacao);
             this.Controls.Add(this.lblcodigo_externo);
             this.Controls.Add(this.lblacompanhamento);
@@ -314,11 +314,11 @@
         private System.Windows.Forms.Label lblacompanhamento;
         private System.Windows.Forms.Label lblcodigo_externo;
         private System.Windows.Forms.Label lbldata_transacao;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtid_transacao;
+        private System.Windows.Forms.TextBox txtpagamento_id;
+        private System.Windows.Forms.TextBox txtacompanhamento;
+        private System.Windows.Forms.TextBox txtcodigo_externo;
+        private System.Windows.Forms.TextBox txtdata_transacao;
         private System.Windows.Forms.DataGridView dgvTransacoesPagamentos;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_transacao;
         private System.Windows.Forms.DataGridViewTextBoxColumn pagamento_id;

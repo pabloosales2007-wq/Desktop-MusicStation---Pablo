@@ -35,24 +35,24 @@
             this.lblDescricao = new System.Windows.Forms.Label();
             this.lblPrecoLocacao = new System.Windows.Forms.Label();
             this.lblDisponivel = new System.Windows.Forms.Label();
-            this.txtid_cliente = new System.Windows.Forms.TextBox();
-            this.txtEmpresa_id = new System.Windows.Forms.TextBox();
+            this.txtid_instrumento = new System.Windows.Forms.TextBox();
+            this.txtempresa_id = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtDescricao = new System.Windows.Forms.TextBox();
-            this.txtPrecoLocacao = new System.Windows.Forms.TextBox();
-            this.txtDisponivel = new System.Windows.Forms.TextBox();
+            this.txtpreco_locacao = new System.Windows.Forms.TextBox();
+            this.txtdisponivel = new System.Windows.Forms.TextBox();
             this.dgvInstrumentos = new System.Windows.Forms.DataGridView();
-            this.btnCadastrarInstrumentos = new System.Windows.Forms.Button();
-            this.btnAtualizarInstrumentos = new System.Windows.Forms.Button();
-            this.btnPesquisarInstrumentos = new System.Windows.Forms.Button();
-            this.btnDeletarInstrumentos = new System.Windows.Forms.Button();
-            this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
             this.id_instrumentos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empresa_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.preco_locacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Disponivel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCadastrarInstrumentos = new System.Windows.Forms.Button();
+            this.btnAtualizarInstrumentos = new System.Windows.Forms.Button();
+            this.btnPesquisarInstrumentos = new System.Windows.Forms.Button();
+            this.btnDeletarInstrumentos = new System.Windows.Forms.Button();
+            this.pictureBoxFundo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInstrumentos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
             this.SuspendLayout();
@@ -141,19 +141,19 @@
             this.lblDisponivel.TabIndex = 59;
             this.lblDisponivel.Text = "Disponível:";
             // 
-            // txtid_cliente
+            // txtid_instrumento
             // 
-            this.txtid_cliente.Location = new System.Drawing.Point(63, 99);
-            this.txtid_cliente.Name = "txtid_cliente";
-            this.txtid_cliente.Size = new System.Drawing.Size(97, 20);
-            this.txtid_cliente.TabIndex = 60;
+            this.txtid_instrumento.Location = new System.Drawing.Point(63, 99);
+            this.txtid_instrumento.Name = "txtid_instrumento";
+            this.txtid_instrumento.Size = new System.Drawing.Size(97, 20);
+            this.txtid_instrumento.TabIndex = 60;
             // 
-            // txtEmpresa_id
+            // txtempresa_id
             // 
-            this.txtEmpresa_id.Location = new System.Drawing.Point(179, 98);
-            this.txtEmpresa_id.Name = "txtEmpresa_id";
-            this.txtEmpresa_id.Size = new System.Drawing.Size(70, 20);
-            this.txtEmpresa_id.TabIndex = 61;
+            this.txtempresa_id.Location = new System.Drawing.Point(179, 98);
+            this.txtempresa_id.Name = "txtempresa_id";
+            this.txtempresa_id.Size = new System.Drawing.Size(70, 20);
+            this.txtempresa_id.TabIndex = 61;
             // 
             // txtNome
             // 
@@ -169,19 +169,19 @@
             this.txtDescricao.Size = new System.Drawing.Size(275, 20);
             this.txtDescricao.TabIndex = 63;
             // 
-            // txtPrecoLocacao
+            // txtpreco_locacao
             // 
-            this.txtPrecoLocacao.Location = new System.Drawing.Point(63, 187);
-            this.txtPrecoLocacao.Name = "txtPrecoLocacao";
-            this.txtPrecoLocacao.Size = new System.Drawing.Size(70, 20);
-            this.txtPrecoLocacao.TabIndex = 64;
+            this.txtpreco_locacao.Location = new System.Drawing.Point(63, 187);
+            this.txtpreco_locacao.Name = "txtpreco_locacao";
+            this.txtpreco_locacao.Size = new System.Drawing.Size(70, 20);
+            this.txtpreco_locacao.TabIndex = 64;
             // 
-            // txtDisponivel
+            // txtdisponivel
             // 
-            this.txtDisponivel.Location = new System.Drawing.Point(179, 187);
-            this.txtDisponivel.Name = "txtDisponivel";
-            this.txtDisponivel.Size = new System.Drawing.Size(70, 20);
-            this.txtDisponivel.TabIndex = 65;
+            this.txtdisponivel.Location = new System.Drawing.Point(179, 187);
+            this.txtdisponivel.Name = "txtdisponivel";
+            this.txtdisponivel.Size = new System.Drawing.Size(70, 20);
+            this.txtdisponivel.TabIndex = 65;
             // 
             // dgvInstrumentos
             // 
@@ -199,6 +199,36 @@
             this.dgvInstrumentos.Name = "dgvInstrumentos";
             this.dgvInstrumentos.Size = new System.Drawing.Size(543, 150);
             this.dgvInstrumentos.TabIndex = 66;
+            // 
+            // id_instrumentos
+            // 
+            this.id_instrumentos.HeaderText = "id_instrumentos";
+            this.id_instrumentos.Name = "id_instrumentos";
+            // 
+            // empresa_id
+            // 
+            this.empresa_id.HeaderText = "empresa_id";
+            this.empresa_id.Name = "empresa_id";
+            // 
+            // Nome
+            // 
+            this.Nome.HeaderText = "Nome";
+            this.Nome.Name = "Nome";
+            // 
+            // Descricao
+            // 
+            this.Descricao.HeaderText = "Descrição";
+            this.Descricao.Name = "Descricao";
+            // 
+            // preco_locacao
+            // 
+            this.preco_locacao.HeaderText = "Preço Locação";
+            this.preco_locacao.Name = "preco_locacao";
+            // 
+            // Disponivel
+            // 
+            this.Disponivel.HeaderText = "Disponivel";
+            this.Disponivel.Name = "Disponivel";
             // 
             // btnCadastrarInstrumentos
             // 
@@ -266,36 +296,6 @@
             this.pictureBoxFundo.TabIndex = 24;
             this.pictureBoxFundo.TabStop = false;
             // 
-            // id_instrumentos
-            // 
-            this.id_instrumentos.HeaderText = "id_instrumentos";
-            this.id_instrumentos.Name = "id_instrumentos";
-            // 
-            // empresa_id
-            // 
-            this.empresa_id.HeaderText = "empresa_id";
-            this.empresa_id.Name = "empresa_id";
-            // 
-            // Nome
-            // 
-            this.Nome.HeaderText = "Nome";
-            this.Nome.Name = "Nome";
-            // 
-            // Descricao
-            // 
-            this.Descricao.HeaderText = "Descrição";
-            this.Descricao.Name = "Descricao";
-            // 
-            // preco_locacao
-            // 
-            this.preco_locacao.HeaderText = "Preço Locação";
-            this.preco_locacao.Name = "preco_locacao";
-            // 
-            // Disponivel
-            // 
-            this.Disponivel.HeaderText = "Disponivel";
-            this.Disponivel.Name = "Disponivel";
-            // 
             // FormCatalogoInstrumentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,12 +307,12 @@
             this.Controls.Add(this.btnDeletarInstrumentos);
             this.Controls.Add(this.btnCadastrarInstrumentos);
             this.Controls.Add(this.dgvInstrumentos);
-            this.Controls.Add(this.txtDisponivel);
-            this.Controls.Add(this.txtPrecoLocacao);
+            this.Controls.Add(this.txtdisponivel);
+            this.Controls.Add(this.txtpreco_locacao);
             this.Controls.Add(this.txtDescricao);
             this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.txtEmpresa_id);
-            this.Controls.Add(this.txtid_cliente);
+            this.Controls.Add(this.txtempresa_id);
+            this.Controls.Add(this.txtid_instrumento);
             this.Controls.Add(this.lblDisponivel);
             this.Controls.Add(this.lblPrecoLocacao);
             this.Controls.Add(this.lblDescricao);
@@ -341,12 +341,12 @@
         private System.Windows.Forms.Label lblDescricao;
         private System.Windows.Forms.Label lblPrecoLocacao;
         private System.Windows.Forms.Label lblDisponivel;
-        private System.Windows.Forms.TextBox txtid_cliente;
-        private System.Windows.Forms.TextBox txtEmpresa_id;
+        private System.Windows.Forms.TextBox txtid_instrumento;
+        private System.Windows.Forms.TextBox txtempresa_id;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtDescricao;
-        private System.Windows.Forms.TextBox txtPrecoLocacao;
-        private System.Windows.Forms.TextBox txtDisponivel;
+        private System.Windows.Forms.TextBox txtpreco_locacao;
+        private System.Windows.Forms.TextBox txtdisponivel;
         private System.Windows.Forms.DataGridView dgvInstrumentos;
         private System.Windows.Forms.Button btnCadastrarInstrumentos;
         private System.Windows.Forms.Button btnAtualizarInstrumentos;

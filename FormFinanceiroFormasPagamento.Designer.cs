@@ -38,11 +38,11 @@
             this.btnAtualizarPagamentos = new System.Windows.Forms.Button();
             this.btnPesquisarPagamentos = new System.Windows.Forms.Button();
             this.btnDeletarPagamentos = new System.Windows.Forms.Button();
-            this.dgvPagamentos = new System.Windows.Forms.DataGridView();
+            this.dgvFormasPagamentos = new System.Windows.Forms.DataGridView();
             this.id_pagamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPagamentos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFormasPagamentos)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxFundo
@@ -161,18 +161,18 @@
             this.btnDeletarPagamentos.Text = "Deletar";
             this.btnDeletarPagamentos.UseVisualStyleBackColor = false;
             // 
-            // dgvPagamentos
+            // dgvFormasPagamentos
             // 
-            this.dgvPagamentos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvPagamentos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgvPagamentos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPagamentos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvFormasPagamentos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dgvFormasPagamentos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvFormasPagamentos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFormasPagamentos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id_pagamento,
             this.tipo});
-            this.dgvPagamentos.Location = new System.Drawing.Point(63, 264);
-            this.dgvPagamentos.Name = "dgvPagamentos";
-            this.dgvPagamentos.Size = new System.Drawing.Size(245, 150);
-            this.dgvPagamentos.TabIndex = 76;
+            this.dgvFormasPagamentos.Location = new System.Drawing.Point(63, 264);
+            this.dgvFormasPagamentos.Name = "dgvFormasPagamentos";
+            this.dgvFormasPagamentos.Size = new System.Drawing.Size(245, 150);
+            this.dgvFormasPagamentos.TabIndex = 76;
             // 
             // id_pagamento
             // 
@@ -190,7 +190,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
-            this.Controls.Add(this.dgvPagamentos);
+            this.Controls.Add(this.dgvFormasPagamentos);
             this.Controls.Add(this.btnAtualizarPagamentos);
             this.Controls.Add(this.btnPesquisarPagamentos);
             this.Controls.Add(this.btnDeletarPagamentos);
@@ -205,7 +205,7 @@
             this.Name = "FormFinanceiroFormasPagamento";
             this.Text = "FormFinanceiroFormasPagamento";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPagamentos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFormasPagamentos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,7 +223,7 @@
         private System.Windows.Forms.Button btnAtualizarPagamentos;
         private System.Windows.Forms.Button btnPesquisarPagamentos;
         private System.Windows.Forms.Button btnDeletarPagamentos;
-        private System.Windows.Forms.DataGridView dgvPagamentos;
+        private System.Windows.Forms.DataGridView dgvFormasPagamentos;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_pagamento;
         private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
     }

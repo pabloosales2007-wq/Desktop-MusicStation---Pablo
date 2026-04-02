@@ -43,16 +43,16 @@
             this.lbldata_avaliacao = new System.Windows.Forms.Label();
             this.txtdata_avaliacao = new System.Windows.Forms.TextBox();
             this.dgvAvaliacoes = new System.Windows.Forms.DataGridView();
-            this.btnCadastrarNotificacoes = new System.Windows.Forms.Button();
-            this.btnAtualizarNotificacoes = new System.Windows.Forms.Button();
-            this.btnPesquisarNotificacoes = new System.Windows.Forms.Button();
-            this.btnDeletarNotificacoes = new System.Windows.Forms.Button();
             this.id_avaliacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.servico_pedido_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cliente_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comentario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.data_avaliacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCadastrarAvaliacoes = new System.Windows.Forms.Button();
+            this.btnAtualizarAvaliacoes = new System.Windows.Forms.Button();
+            this.btnPesquisarAvaliacoes = new System.Windows.Forms.Button();
+            this.btnDeletarAvaliacoes = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFundo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAvaliacoes)).BeginInit();
             this.SuspendLayout();
@@ -210,62 +210,6 @@
             this.dgvAvaliacoes.Size = new System.Drawing.Size(542, 150);
             this.dgvAvaliacoes.TabIndex = 96;
             // 
-            // btnCadastrarNotificacoes
-            // 
-            this.btnCadastrarNotificacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(167)))), ((int)(((byte)(46)))));
-            this.btnCadastrarNotificacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCadastrarNotificacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarNotificacoes.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCadastrarNotificacoes.Location = new System.Drawing.Point(438, 94);
-            this.btnCadastrarNotificacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnCadastrarNotificacoes.Name = "btnCadastrarNotificacoes";
-            this.btnCadastrarNotificacoes.Size = new System.Drawing.Size(88, 33);
-            this.btnCadastrarNotificacoes.TabIndex = 97;
-            this.btnCadastrarNotificacoes.Text = "Cadastrar";
-            this.btnCadastrarNotificacoes.UseVisualStyleBackColor = false;
-            // 
-            // btnAtualizarNotificacoes
-            // 
-            this.btnAtualizarNotificacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(158)))), ((int)(((byte)(213)))));
-            this.btnAtualizarNotificacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAtualizarNotificacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtualizarNotificacoes.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAtualizarNotificacoes.Location = new System.Drawing.Point(534, 134);
-            this.btnAtualizarNotificacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnAtualizarNotificacoes.Name = "btnAtualizarNotificacoes";
-            this.btnAtualizarNotificacoes.Size = new System.Drawing.Size(88, 31);
-            this.btnAtualizarNotificacoes.TabIndex = 100;
-            this.btnAtualizarNotificacoes.Text = "Atualizar";
-            this.btnAtualizarNotificacoes.UseVisualStyleBackColor = false;
-            // 
-            // btnPesquisarNotificacoes
-            // 
-            this.btnPesquisarNotificacoes.BackColor = System.Drawing.Color.White;
-            this.btnPesquisarNotificacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPesquisarNotificacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisarNotificacoes.ForeColor = System.Drawing.Color.Black;
-            this.btnPesquisarNotificacoes.Location = new System.Drawing.Point(534, 95);
-            this.btnPesquisarNotificacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnPesquisarNotificacoes.Name = "btnPesquisarNotificacoes";
-            this.btnPesquisarNotificacoes.Size = new System.Drawing.Size(88, 33);
-            this.btnPesquisarNotificacoes.TabIndex = 99;
-            this.btnPesquisarNotificacoes.Text = "Pesquisar";
-            this.btnPesquisarNotificacoes.UseVisualStyleBackColor = false;
-            // 
-            // btnDeletarNotificacoes
-            // 
-            this.btnDeletarNotificacoes.BackColor = System.Drawing.Color.Red;
-            this.btnDeletarNotificacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnDeletarNotificacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeletarNotificacoes.ForeColor = System.Drawing.Color.Transparent;
-            this.btnDeletarNotificacoes.Location = new System.Drawing.Point(438, 134);
-            this.btnDeletarNotificacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnDeletarNotificacoes.Name = "btnDeletarNotificacoes";
-            this.btnDeletarNotificacoes.Size = new System.Drawing.Size(88, 31);
-            this.btnDeletarNotificacoes.TabIndex = 98;
-            this.btnDeletarNotificacoes.Text = "Deletar";
-            this.btnDeletarNotificacoes.UseVisualStyleBackColor = false;
-            // 
             // id_avaliacao
             // 
             this.id_avaliacao.HeaderText = "id_avaliacao";
@@ -296,16 +240,72 @@
             this.data_avaliacao.HeaderText = "Data Avaliação";
             this.data_avaliacao.Name = "data_avaliacao";
             // 
+            // btnCadastrarAvaliacoes
+            // 
+            this.btnCadastrarAvaliacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(167)))), ((int)(((byte)(46)))));
+            this.btnCadastrarAvaliacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCadastrarAvaliacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarAvaliacoes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCadastrarAvaliacoes.Location = new System.Drawing.Point(438, 94);
+            this.btnCadastrarAvaliacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnCadastrarAvaliacoes.Name = "btnCadastrarAvaliacoes";
+            this.btnCadastrarAvaliacoes.Size = new System.Drawing.Size(88, 33);
+            this.btnCadastrarAvaliacoes.TabIndex = 97;
+            this.btnCadastrarAvaliacoes.Text = "Cadastrar";
+            this.btnCadastrarAvaliacoes.UseVisualStyleBackColor = false;
+            // 
+            // btnAtualizarAvaliacoes
+            // 
+            this.btnAtualizarAvaliacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(158)))), ((int)(((byte)(213)))));
+            this.btnAtualizarAvaliacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAtualizarAvaliacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizarAvaliacoes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnAtualizarAvaliacoes.Location = new System.Drawing.Point(534, 134);
+            this.btnAtualizarAvaliacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnAtualizarAvaliacoes.Name = "btnAtualizarAvaliacoes";
+            this.btnAtualizarAvaliacoes.Size = new System.Drawing.Size(88, 31);
+            this.btnAtualizarAvaliacoes.TabIndex = 100;
+            this.btnAtualizarAvaliacoes.Text = "Atualizar";
+            this.btnAtualizarAvaliacoes.UseVisualStyleBackColor = false;
+            // 
+            // btnPesquisarAvaliacoes
+            // 
+            this.btnPesquisarAvaliacoes.BackColor = System.Drawing.Color.White;
+            this.btnPesquisarAvaliacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPesquisarAvaliacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisarAvaliacoes.ForeColor = System.Drawing.Color.Black;
+            this.btnPesquisarAvaliacoes.Location = new System.Drawing.Point(534, 95);
+            this.btnPesquisarAvaliacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnPesquisarAvaliacoes.Name = "btnPesquisarAvaliacoes";
+            this.btnPesquisarAvaliacoes.Size = new System.Drawing.Size(88, 33);
+            this.btnPesquisarAvaliacoes.TabIndex = 99;
+            this.btnPesquisarAvaliacoes.Text = "Pesquisar";
+            this.btnPesquisarAvaliacoes.UseVisualStyleBackColor = false;
+            // 
+            // btnDeletarAvaliacoes
+            // 
+            this.btnDeletarAvaliacoes.BackColor = System.Drawing.Color.Red;
+            this.btnDeletarAvaliacoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDeletarAvaliacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletarAvaliacoes.ForeColor = System.Drawing.Color.Transparent;
+            this.btnDeletarAvaliacoes.Location = new System.Drawing.Point(438, 134);
+            this.btnDeletarAvaliacoes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnDeletarAvaliacoes.Name = "btnDeletarAvaliacoes";
+            this.btnDeletarAvaliacoes.Size = new System.Drawing.Size(88, 31);
+            this.btnDeletarAvaliacoes.TabIndex = 98;
+            this.btnDeletarAvaliacoes.Text = "Deletar";
+            this.btnDeletarAvaliacoes.UseVisualStyleBackColor = false;
+            // 
             // FormMensagensAvaliacoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(668, 444);
-            this.Controls.Add(this.btnAtualizarNotificacoes);
-            this.Controls.Add(this.btnPesquisarNotificacoes);
-            this.Controls.Add(this.btnDeletarNotificacoes);
-            this.Controls.Add(this.btnCadastrarNotificacoes);
+            this.Controls.Add(this.btnAtualizarAvaliacoes);
+            this.Controls.Add(this.btnPesquisarAvaliacoes);
+            this.Controls.Add(this.btnDeletarAvaliacoes);
+            this.Controls.Add(this.btnCadastrarAvaliacoes);
             this.Controls.Add(this.dgvAvaliacoes);
             this.Controls.Add(this.txtdata_avaliacao);
             this.Controls.Add(this.lbldata_avaliacao);
@@ -348,10 +348,10 @@
         private System.Windows.Forms.Label lbldata_avaliacao;
         private System.Windows.Forms.TextBox txtdata_avaliacao;
         private System.Windows.Forms.DataGridView dgvAvaliacoes;
-        private System.Windows.Forms.Button btnCadastrarNotificacoes;
-        private System.Windows.Forms.Button btnAtualizarNotificacoes;
-        private System.Windows.Forms.Button btnPesquisarNotificacoes;
-        private System.Windows.Forms.Button btnDeletarNotificacoes;
+        private System.Windows.Forms.Button btnCadastrarAvaliacoes;
+        private System.Windows.Forms.Button btnAtualizarAvaliacoes;
+        private System.Windows.Forms.Button btnPesquisarAvaliacoes;
+        private System.Windows.Forms.Button btnDeletarAvaliacoes;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_avaliacao;
         private System.Windows.Forms.DataGridViewTextBoxColumn servico_pedido_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn cliente_id;

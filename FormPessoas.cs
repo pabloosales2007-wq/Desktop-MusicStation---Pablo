@@ -19,16 +19,16 @@ namespace Telas_Desktop_MusicStation___Pablo
             InitializeComponent();
         }
 
-        // Armazena a referência do formulário atualmente exibido no painel principal
+        // Guarda qual tela está aberta agora para que o sistema 
+        // saiba quem ele deve fechar quando o usuário clicar em outro menu.
         private Form formularioAtual = null;
 
 
-        // Método responsável por abrir um novo formulário dentro do painel principal (MDI manual)
+        // Método responsável por abrir um novo formulário dentro do painel principal
         private void AbrirFormulario(Form novoForm) 
         {
-            // Verifica se já existe um formulário aberto e se ele ainda não foi destruído
-            // Isso evita erros ao tentar fechar um formulário já descartado
-            // Fecha o formulário atual se existir
+            // Garante que apenas um formulário esteja ativo por vez: 
+            // Se houver um formulário aberto e ele ainda for válido, fecha-o para liberar memória.
             if (formularioAtual != null && !formularioAtual.IsDisposed)
             {
                 formularioAtual.Close(); // Fecha o formulário anterior antes de abrir o novo
@@ -36,13 +36,13 @@ namespace Telas_Desktop_MusicStation___Pablo
 
             // Define o novo formulário como atual
             formularioAtual = novoForm; // Atualiza a referência para o novo formulário recebido como parâmetro
-
             formularioAtual.TopLevel = false; // Impede que o formulário seja tratado como uma janela independente (janela filha)
-
             formularioAtual.Dock = DockStyle.Fill;  // Faz o formulário ocupar todo o espaço disponível dentro do painel
 
-            panelPrincipal.Controls.Clear(); // Remove qualquer controle anterior do painel para evitar sobreposição
 
+
+
+            panelPrincipal.Controls.Clear(); // Remove qualquer controle anterior do painel para evitar sobreposição
             panelPrincipal.Controls.Add(formularioAtual); // Adiciona o novo formulário como controle filho do painel principal
 
             formularioAtual.Show(); // Exibe o formulário dentro do painel

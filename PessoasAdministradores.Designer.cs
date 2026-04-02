@@ -151,7 +151,7 @@
             this.txtDataCriacao.ForeColor = System.Drawing.Color.Black;
             this.txtDataCriacao.Location = new System.Drawing.Point(63, 140);
             this.txtDataCriacao.Name = "txtDataCriacao";
-            this.txtDataCriacao.Size = new System.Drawing.Size(307, 20);
+            this.txtDataCriacao.Size = new System.Drawing.Size(89, 20);
             this.txtDataCriacao.TabIndex = 61;
             // 
             // txtNivelAcesso
